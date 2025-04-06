@@ -7,13 +7,17 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import Link from "next/link";
 
 const OurServices = () => {
   return (
     <Carousel className="w-full max-w-2xl mx-auto md:hidden">
       <CarouselContent>
         <CarouselItem className="min-w-full">
-          <div className="flex flex-col justify-center items-center gap-4 py-5">
+          <Link
+            href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
+            className="flex flex-col justify-center items-center gap-4 py-5"
+          >
             <Image
               className="rounded-4xl"
               src="/images/moloz.jpg"
@@ -21,11 +25,14 @@ const OurServices = () => {
               height={215}
               alt="yalova kepçe"
             />
-            <h4 className="text-lg font-medium">Hafriyat - Moloz Taşıma</h4>
-          </div>
+            <h4 className="text-xl font-semibold">Hafriyat - Moloz Taşıma</h4>
+          </Link>
         </CarouselItem>
         <CarouselItem className="min-w-full">
-          <div className="flex flex-col justify-center items-center gap-4 py-5">
+          <Link
+            href="/tr/hizmetlerimiz/alt-yapi"
+            className="flex flex-col justify-center items-center gap-4 py-5"
+          >
             <Image
               className="rounded-4xl"
               src="/images/altyapi.jpg"
@@ -33,11 +40,14 @@ const OurServices = () => {
               height={215}
               alt="yalova kepçe"
             />
-            <h4 className="text-lg font-medium">Altyapı</h4>
-          </div>
+            <h4 className="text-xl font-semibold">Altyapı</h4>
+          </Link>
         </CarouselItem>
         <CarouselItem className="min-w-full">
-          <div className="flex flex-col justify-center items-center gap-4 py-5">
+          <Link
+            href="/tr/hizmetlerimiz/tesviye"
+            className="flex flex-col justify-center items-center gap-4 py-5"
+          >
             <Image
               className="rounded-4xl"
               src="/images/tesviye.jpg"
@@ -45,11 +55,14 @@ const OurServices = () => {
               height={215}
               alt="yalova kepçe"
             />
-            <h4 className="text-lg font-medium">Arazi Düzeltme ve Tesviye</h4>
-          </div>
+            <h4 className="text-xl font-semibold">Arazi Düzeltme ve Tesviye</h4>
+          </Link>
         </CarouselItem>
         <CarouselItem className="min-w-full">
-          <div className="flex flex-col justify-center items-center gap-4 py-5">
+          <Link
+            href="/tr/hizmetlerimiz/bina-yikim"
+            className="flex flex-col justify-center items-center gap-4 py-5"
+          >
             <Image
               className="rounded-4xl"
               src="/images/yikim.jpg"
@@ -57,11 +70,14 @@ const OurServices = () => {
               height={215}
               alt="yalova kepçe"
             />
-            <h4 className="text-lg font-medium">Bina Yıkım</h4>
-          </div>
+            <h4 className="text-xl font-semibold">Bina Yıkım</h4>
+          </Link>
         </CarouselItem>
         <CarouselItem className="min-w-full">
-          <div className="flex flex-col justify-center items-center gap-4 py-5">
+          <Link
+            href="/tr/hizmetlerimiz/yol-yapim-parke"
+            className="flex flex-col justify-center items-center gap-4 py-5"
+          >
             <Image
               className="rounded-4xl"
               src="/images/yol.jpg"
@@ -69,8 +85,8 @@ const OurServices = () => {
               height={215}
               alt="yalova kepçe"
             />
-            <h4 className="text-lg font-medium">Yol Yapım - Parke Döşeme</h4>
-          </div>
+            <h4 className="text-xl font-semibold">Yol Yapım - Parke Döşeme</h4>
+          </Link>
         </CarouselItem>
       </CarouselContent>
       <CarouselPrevious />

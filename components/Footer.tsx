@@ -16,13 +16,15 @@ const Footer = () => {
     <footer className="bg-gray-200 p-7 min-h-[40vh] flex flex-col justify-center">
       <div className="flex justify-center max-md:items-center flex-col md:flex-row md:justify-around gap-7">
         <div className="max-md:w-[85px] max-md:h-[46px] min-w-[85px] min-h-[46px] space-y-5">
-          <Image
-            src="/logo.svg"
-            alt="Yalova ünlü hafriyat"
-            width={151}
-            height={80}
-          />
-          <div className="flex flex-col gap-5 max-md:hidden">
+          <Link href="/">
+            <Image
+              src="/logo.svg"
+              alt="Yalova ünlü hafriyat"
+              width={151}
+              height={80}
+            />
+          </Link>
+          <div className="flex flex-col gap-5 max-md:hidden py-3">
             <div className="flex justify-between">
               <div className="rounded-full p-2 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-blue-800 hover:text-white transition-all duration-300 ">
                 <Facebook />
