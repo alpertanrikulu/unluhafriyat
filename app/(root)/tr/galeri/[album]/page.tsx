@@ -37,7 +37,7 @@ const page = ({ params }: Props) => {
     if (index === -1) return;
 
     const l1: number[] = range(index, albumData.images.length - 1);
-    const l2: number[] = range(0, index);
+    const l2: number[] = range(0, index - 1);
 
     return l1.concat(l2).map((i) => albumData.images[i]);
   };

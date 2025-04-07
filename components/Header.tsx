@@ -39,18 +39,28 @@ const Header = () => {
               <p className="text-md md:text-lg">0534 935 5634</p>
             </a>
 
-            <div className="ml-5 max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-blue-800 hover:text-white transition-all duration-300 ">
+            <Link
+              href="/"
+              className="ml-5 max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-blue-800 hover:text-white transition-all duration-300 "
+            >
               <Facebook />
-            </div>
-            <div className="max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-pink-500 hover:to-purple-600 hover:text-white transition-all duration-300">
-              <Link href="https://www.instagram.com/unlu_hafriyat_77/">
-                <Instagram />
-              </Link>
-            </div>
-            <div className="max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-sky-700 hover:to-blue-900 hover:text-white transition-all duration-300">
+            </Link>
+            <Link
+              href="https://www.instagram.com/unlu_hafriyat_77/"
+              className="max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-pink-500 hover:to-purple-600 hover:text-white transition-all duration-300"
+            >
+              <Instagram />
+            </Link>
+            <Link
+              href="/"
+              className="max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-sky-700 hover:to-blue-900 hover:text-white transition-all duration-300"
+            >
               <Linkedin />
-            </div>
-            <div className="mr-5 max-md:hidden group rounded-full p-2 hover:bg-gradient-to-tr hover:from-neutral-800 hover:to-black transition-all duration-300">
+            </Link>
+            <Link
+              href="/"
+              className="mr-5 max-md:hidden group rounded-full p-2 hover:bg-gradient-to-tr hover:from-neutral-800 hover:to-black transition-all duration-300"
+            >
               <Image
                 src="/x.svg"
                 alt="x icon"
@@ -58,7 +68,7 @@ const Header = () => {
                 height={24}
                 className="transition-all duration-300 group-hover:invert group-hover:brightness-200"
               />
-            </div>
+            </Link>
             <DropdownMenu>
               <DropdownMenuTrigger className="flex gap-1 text-lg hover:cursor-pointer">
                 <Image

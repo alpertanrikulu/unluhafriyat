@@ -56,7 +56,7 @@ const page = () => {
 
   return (
     <>
-      <HizmetBanner hizmet={"Hafriyat - Moloz Taşıma"} images={images} />
+      <HizmetBanner hizmet={"Arazi Düzeltme ve Tesviye"} images={images} />
       <section className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center">
         {/* <WorkExamples works={works} /> */}
         {works.map((work, k) => (
