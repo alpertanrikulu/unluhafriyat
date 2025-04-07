@@ -1,6 +1,12 @@
+// app/tr/hizmetlerimiz/hafriyat-moloz-tasima/page.tsx
+
 import HizmetBanner from "@/components/HizmetBanner";
 import WorkExamples from "@/components/WorkExamples";
+import { Metadata } from "next";
 import React from "react";
+import metadata from "@/lib/metadata/tr/hafriyat-moloz-tasima";
+
+export { metadata };
 
 const page = () => {
   const images: string[] = [

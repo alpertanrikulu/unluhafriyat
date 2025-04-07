@@ -4,6 +4,10 @@ import { Facebook, Instagram, Linkedin, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import metadata from "@/lib/metadata/tr/iletisim"; // SEO bilgisi burada
+
+// SEO metadata'yı export ediyoruz
+export { metadata };
 
 const page = () => {
   return (
@@ -13,22 +17,33 @@ const page = () => {
       </div>
       <div className="flex flex-wrap py-10 md:py-15 px-5 md:px-15">
         <div className="flex flex-col justify-center items-center px-5 py-5 gap-3 w-full md:w-1/3">
-          <div className="flex flex-col items-center">
-            <Phone />
-            <p>0534 935 5634</p>
+          <div className="flex flex-col items-center mb-5">
+            <Phone size={36} />
+            <p>
+              <a href="tel:+05349355634" className="text-blue-600 md:text-xl">
+                0534 935 5634
+              </a>
+            </p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-5">
             <Image
               src="/whatsapp.svg"
-              alt="whatsapp icon"
-              width={24}
-              height={24}
+              alt="whatsapp ikonu"
+              width={36}
+              height={36}
             />
-            <p>WhatsApp</p>
+            <p>
+              <a
+                href="https://wa.me/05349355634"
+                className="text-green-600 md:text-xl"
+              >
+                WhatsApp
+              </a>
+            </p>
           </div>
-          <div className="flex flex-col items-center">
-            <MapPin />
-            <p className="text-center">
+          <div className="flex flex-col items-center mb-5">
+            <MapPin size={36} />
+            <p className="text-center md:text-xl">
               Mahalle Yalova, Taşköprü Yeni, İzmit Yalova Yolu no:85, 77600
               Taşköprü/Çiftlikköy/Yalova
             </p>
