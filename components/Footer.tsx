@@ -4,7 +4,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
-  MapPinHouse,
+  MapPin,
   Phone,
 } from "lucide-react";
 import Image from "next/image";
@@ -104,10 +104,24 @@ const Footer = () => {
           <h4 className="font-medium text-xl">Sosyal Medya</h4>
           <div className="flex gap-1 justify-start items-center">
             <Facebook />
-            <p className="text-md font-normal">sefa.f.unlu</p>
+            <p className="text-md font-normal">@unlu_hafriyat_77</p>
           </div>
           <div className="flex gap-1 justify-start items-center">
             <Instagram />
+            <p className="text-md font-normal">@unlu_hafriyat_77</p>
+          </div>
+          <div className="flex gap-1 justify-start items-center">
+            <Linkedin />
+            <p className="text-md font-normal">@unlu_hafriyat_77</p>
+          </div>
+          <div className="flex gap-1 justify-start items-center">
+            <Image
+              src="/x.svg"
+              alt="x icon"
+              width={24}
+              height={24}
+              className="transition-all duration-300 group-hover:invert group-hover:brightness-200"
+            />
             <p className="text-md font-normal">@unlu_hafriyat_77</p>
           </div>
         </div>
@@ -116,7 +130,7 @@ const Footer = () => {
             <Link href="/tr/iletisim">İletişim</Link>
           </h4>
           <div className="flex gap-1 justify-center md:justify-start items-start">
-            <MapPinHouse />
+            <MapPin />
             <a
               href="https://maps.app.goo.gl/3gKmi2D1PPgxZv8a6"
               className="text-md font-normal max-w-[22vw] no-underline"

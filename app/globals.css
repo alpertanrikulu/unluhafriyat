@@ -122,6 +122,6 @@
 }
 
 .sariButton {
-  @apply bg-amber-300 text-black rounded-2xl text-lg border border-black px-3 py-1 flex items-center justify-between;
+  @apply bg-amber-300 text-black rounded-2xl text-lg lg:text-2xl border border-black px-3 py-1 flex items-center justify-between;
 }
 

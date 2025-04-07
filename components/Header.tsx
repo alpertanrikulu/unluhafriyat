@@ -36,7 +36,7 @@ const Header = () => {
           <div className="flex justify-between items-center md:justify-end md:gap-5">
             <a className="flex gap-1 items-center" href="tel:+905349355634">
               <Phone />
-              <p className="text-xs md:text-lg">0534 935 5634</p>
+              <p className="text-md md:text-lg">0534 935 5634</p>
             </a>
 
             <div className="ml-5 max-md:hidden rounded-full p-2 hover:bg-gradient-to-tr hover:from-blue-600 hover:to-blue-800 hover:text-white transition-all duration-300 ">
@@ -59,22 +59,24 @@ const Header = () => {
                 className="transition-all duration-300 group-hover:invert group-hover:brightness-200"
               />
             </div>
-            <div className="flex gap-1">
-              <Image
-                src="/turkeyicon.svg"
-                alt="turk bayragi"
-                width={25}
-                height={18}
-              />
-              <DropdownMenu>
-                <DropdownMenuTrigger>Türkçe</DropdownMenuTrigger>
-                <DropdownMenuContent>
-                  <DropdownMenuItem>
-                    <Link href="/en">English</Link>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex gap-1 text-lg hover:cursor-pointer">
+                <Image
+                  src="/turkeyicon.svg"
+                  alt="turk bayragi"
+                  width={25}
+                  height={18}
+                />{" "}
+                Türkçe
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link className="text-lg" href="/en">
+                    English
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
           <div className="flex justify-between items-center">
             <Link href="/">
@@ -87,7 +89,7 @@ const Header = () => {
               />
             </Link>
             <Burger navIsOpen={navIsOpen} />
-            <div className="hidden md:flex md:justify-end">
+            <div className="hidden md:flex md:justify-end md:mt-3">
               <MobilNav />
             </div>
           </div>

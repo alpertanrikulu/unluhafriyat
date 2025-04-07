@@ -13,7 +13,7 @@ const page = () => {
         className="relative bg-[url('/kepce-bg.jpg')] bg-cover bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
-        <div className="absolute w-full h-full bg-gradient-to-t from-black/70 to-black/0">
+        <div className="absolute w-full h-full bg-gradient-to-tr from-black/70 via-black/10 to-black/0">
           <div className="flex justify-end">
             <div className="space-y-3 mt-5 mr-7">
               <Link
@@ -27,7 +27,7 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <h4 className="absolute font-medium text-2xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]">
+          <h4 className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]">
             Ağır yükleri hafifletir,
             <br /> güçlü makinelerle geleceği inşa ederiz!
           </h4>
@@ -42,9 +42,9 @@ const page = () => {
               alt="Yalova kepçe"
             />
           </div>
-          <div className="px-3 md:px-5 py-6 bg-white max-md:rounded-3xl md:rounded-r-3xl text-center flex flex-col space-y-6 items-center justify-center">
+          <div className="px-3 md:px-5 py-6 bg-white max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
             <h3 className="text-3xl font-semibold">Biz Kimiz?</h3>
-            <p>
+            <p className="text-xl font-medium">
               Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı ve
               yıkım işleriyle güvenilir hizmet sunuyoruz. İhtiyacınıza uygun
               kiralayabileceğiniz iş makineleri veya deneyimli ekibimizle,
@@ -52,9 +52,12 @@ const page = () => {
               makinelerimiz ve tecrübemizle her türlü kazı, dolgu ve yıkım
               işinde yanınızdayız!
             </p>
-            <Button className="bg-gray-300 text-black font-semibold text-md rounded-xl border border-black hover:text-white hover:font-medium">
-              Bizi Daha Yakından Tanıyın
-            </Button>
+            <Link
+              href="/tr/hakkimizda"
+              className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duretion-300 flex gap-2 font-normal"
+            >
+              Bizi Daha Yakından Tanıyın <ChevronRight />
+            </Link>
           </div>
         </div>
       </section>
