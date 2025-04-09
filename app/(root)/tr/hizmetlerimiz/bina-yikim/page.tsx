@@ -55,15 +55,28 @@ const page = () => {
   ];
 
   return (
-    <>
-      <HizmetBanner hizmet={"Bina Yıkım"} images={images} />
-      <section className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center">
-        {/* <WorkExamples works={works} /> */}
-        {works.map((work, k) => (
-          <WorkExamples key={k} work={work} />
+    <main>
+      <HizmetBanner hizmet="Bina Yıkım Hizmetleri" images={images} />
+
+      <section
+        aria-labelledby="bina-yikim-baslik"
+        className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
+      >
+        <h1 id="bina-yikim-baslik" className="sr-only">
+          Bina Yıkım Hizmetleri
+        </h1>
+
+        {works.map((work, index) => (
+          <article
+            key={index}
+            className="w-full max-w-5xl my-8"
+            aria-label={`Çalışma: ${work.title}`}
+          >
+            <WorkExamples work={work} />
+          </article>
         ))}
       </section>
-    </>
+    </main>
   );
 };
 

@@ -1,15 +1,18 @@
 import OurServices from "@/components/OurServices";
 import ServicesCards from "@/components/ServicesCards";
-import { Button } from "@/components/ui/button";
-import { ChevronRight, Ghost } from "lucide-react";
-import Image from "next/image";
+import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { metadata } from "@/lib/metadata/tr/anasayfa";
 
-const page = () => {
+export { metadata };
+
+const Page = () => {
   return (
-    <main className="">
+    <main>
+      {/* Hero Alanı */}
       <section
+        aria-labelledby="hero-heading"
         className="relative bg-[url('/kepce-bg.jpg')] bg-cover bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
@@ -27,24 +30,34 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <h4 className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]">
+          <h1
+            id="hero-heading"
+            className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]"
+          >
             Ağır yükleri hafifletir,
             <br /> güçlü makinelerle geleceği inşa ederiz!
-          </h4>
+          </h1>
         </div>
       </section>
-      <section className="px-[75px] flex items-center justify-center h-[100vh] bg-gray-300">
+
+      {/* Biz Kimiz */}
+      <section
+        className="px-[75px] flex items-center justify-center h-[100vh] bg-gray-300"
+        aria-labelledby="about-heading"
+      >
         <div className="flex justify-center">
-          <div className="h-full">
+          <figure className="h-full hidden md:block">
             <img
-              className="hidden md:block object-cover rounded-l-3xl"
               src="/images/jcb.jpg"
               alt="Yalova kepçe"
+              className="object-cover rounded-l-3xl"
             />
-          </div>
+          </figure>
           <div className="px-3 md:px-5 py-6 bg-white max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
-            <h3 className="text-3xl font-semibold">Biz Kimiz?</h3>
-            <p className="text-xl font-medium">
+            <h2 id="about-heading" className="text-3xl font-semibold">
+              Biz Kimiz?
+            </h2>
+            <p className="text-md md:text-xl font-medium">
               Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı ve
               yıkım işleriyle güvenilir hizmet sunuyoruz. İhtiyacınıza uygun
               kiralayabileceğiniz iş makineleri veya deneyimli ekibimizle,
@@ -54,22 +67,28 @@ const page = () => {
             </p>
             <Link
               href="/tr/hakkimizda"
-              className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duretion-300 flex gap-2 font-normal"
+              className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
             >
               Bizi Daha Yakından Tanıyın <ChevronRight />
             </Link>
           </div>
         </div>
       </section>
-      <section className="px-[75px] py-6 text-center " id="hizmetlerimiz">
-        <div className="">
-          <h3 className="text-3xl font-semibold mb-5">Hizmetlerimiz</h3>
-          <OurServices />
-          <ServicesCards />
-        </div>
+
+      {/* Hizmetlerimiz */}
+      <section
+        className="px-[75px] py-6 text-center"
+        id="hizmetlerimiz"
+        aria-labelledby="services-heading"
+      >
+        <h2 id="services-heading" className="text-3xl font-semibold mb-5">
+          Hizmetlerimiz
+        </h2>
+        <OurServices />
+        <ServicesCards />
       </section>
     </main>
   );
 };
 
-export default page;
+export default Page;

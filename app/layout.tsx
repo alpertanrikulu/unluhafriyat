@@ -31,7 +31,8 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="tr"
+      dir="ltr"
       className={`${myFont.className} scroll-smooth md:scroll-auto`}
     >
       <body

@@ -1,6 +1,10 @@
 import HizmetBanner from "@/components/HizmetBanner";
 import WorkExamples from "@/components/WorkExamples";
+import metadata from "@/lib/metadata/tr/alt-yapi";
 import React from "react";
+
+// SEO metadata export
+export { metadata };
 
 const page = () => {
   const images: string[] = [
@@ -55,15 +59,28 @@ const page = () => {
   ];
 
   return (
-    <>
-      <HizmetBanner hizmet={"Alt Yapı Çalışmaları"} images={images} />
-      <section className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center">
-        {/* <WorkExamples works={works} /> */}
+    <main>
+      <HizmetBanner hizmet="Alt Yapı Çalışmaları" images={images} />
+
+      <section
+        aria-labelledby="alt-yapi-hizmetleri"
+        className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
+      >
+        <h1 id="alt-yapi-hizmetleri" className="sr-only">
+          Alt Yapı Hizmetleri
+        </h1>
+
         {works.map((work, k) => (
-          <WorkExamples key={k} work={work} />
+          <article
+            key={k}
+            className="w-full max-w-5xl my-8"
+            aria-label={`Çalışma: ${work.title}`}
+          >
+            <WorkExamples work={work} />
+          </article>
         ))}
       </section>
-    </>
+    </main>
   );
 };
 

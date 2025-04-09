@@ -51,7 +51,7 @@ const SendMail = () => {
 
   return (
     <form
-      className="p-10 flex flex-col justify-center items-center gap-3 md:gap-5 w-full"
+      className="md:p-10 flex flex-col justify-center items-center gap-3 md:gap-5 w-full"
       ref={form}
       onSubmit={sendEmail}
     >

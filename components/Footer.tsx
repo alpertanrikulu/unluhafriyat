@@ -135,8 +135,10 @@ const Footer = () => {
               href="https://maps.app.goo.gl/3gKmi2D1PPgxZv8a6"
               className="text-md font-normal max-w-[22vw] no-underline"
             >
-              Mahalle Yalova, Taşköprü Yeni, İzmit Yalova Yolu no:85, 77600
-              Taşköprü/Çiftlikköy/Yalova
+              <address>
+                Mahalle Yalova, Taşköprü Yeni, İzmit Yalova Yolu no:85, 77600
+                Taşköprü/Çiftlikköy/Yalova
+              </address>
             </a>
           </div>
           <div className="flex gap-1 justify-center md:justify-start items-center">

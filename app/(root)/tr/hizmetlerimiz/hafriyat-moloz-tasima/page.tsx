@@ -61,15 +61,28 @@ const page = () => {
   ];
 
   return (
-    <>
-      <HizmetBanner hizmet={"Hafriyat - Moloz Taşıma"} images={images} />
-      <section className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center">
-        {/* <WorkExamples works={works} /> */}
-        {works.map((work, k) => (
-          <WorkExamples key={k} work={work} />
+    <main>
+      <HizmetBanner hizmet="Hafriyat - Moloz Taşıma" images={images} />
+
+      <section
+        aria-labelledby="hafriyat-isleri-baslik"
+        className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
+      >
+        <h1 id="hafriyat-isleri-baslik" className="sr-only">
+          Hafriyat ve Moloz Taşıma Çalışmalarımız
+        </h1>
+
+        {works.map((work, index) => (
+          <article
+            key={index}
+            className="w-full max-w-5xl my-8"
+            aria-label={`Çalışma: ${work.title}`}
+          >
+            <WorkExamples work={work} />
+          </article>
         ))}
       </section>
-    </>
+    </main>
   );
 };
 

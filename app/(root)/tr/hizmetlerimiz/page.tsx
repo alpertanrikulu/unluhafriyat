@@ -4,209 +4,75 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import metadata from "@/lib/metadata/tr/hizmetlerimiz";
+import { serviceAlbums } from "@/lib/albums";
 
 export { metadata };
 
 const page = () => {
   return (
     <main>
-      <section className="bg-gray-200 py-8">
-        <h2 className="text-4xl text-center">Hizmetlerimiz</h2>
-      </section>
+      {/* Sayfa başlığı */}
+      <header className="bg-gray-200 py-8 text-center">
+        <h1 className="text-4xl font-bold">Hizmetlerimiz</h1>
+      </header>
+
+      {/* İçindekiler navigasyonu */}
       <nav aria-label="İçindekiler" className="text-center mt-4 md:hidden">
-        <h4 className="text-xl font-medium mb-2">İçindekiler</h4>
+        <h2 className="text-xl font-medium mb-2">İçindekiler</h2>
         <ul className="flex flex-wrap justify-center gap-4">
-          <li className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1">
-            <a href="#hafriyat-moloz-tasima">Hafriyat - Moloz Taşıma</a>
-          </li>
-          <li className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1">
-            <a href="#alt-yapi">Alt Yapı Çalışmaları</a>
-          </li>
-          <li className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1">
-            <a href="#tesviye">Tesviye</a>
-          </li>
-          <li className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1">
-            <a href="#bina-yikim">Bina Yıkım</a>
-          </li>
-          <li className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1">
-            <a href="#yol-yapim-parke">Yol Yapım - Parke Döşeme</a>
-          </li>
+          {[
+            {
+              href: "#hafriyat-moloz-tasima",
+              label: "Hafriyat - Moloz Taşıma",
+            },
+            { href: "#alt-yapi", label: "Alt Yapı Çalışmaları" },
+            { href: "#tesviye", label: "Tesviye" },
+            { href: "#bina-yikim", label: "Bina Yıkım" },
+            { href: "#yol-yapim-parke", label: "Yol Yapım - Parke Döşeme" },
+          ].map((item) => (
+            <li
+              key={item.href}
+              className="bg-gray-100 rounded-2xl hover:scale-105 hover:bg-amber-300 hover:text-white px-3 py-1"
+            >
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))}
         </ul>
       </nav>
-      <section className="flex flex-wrap justify-center md:px-[30px] lg:px-[100px] py-8">
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6">
-          <Image
-            className="rounded-t-2xl"
-            src="/images/moloz.jpg"
-            alt="ünlü hafriyat yalova moloz kaldırma"
-            width={350}
-            height={215}
-          />
-          <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
-            <div>
-              <h3
-                id="hafriyat-moloz-tasima"
-                className="font-semibold text-2xl py-4 hover:text-amber-400 scroll-mt-72"
-              >
-                Hafriyat - Moloz Taşıma
-              </h3>
-              <p className="text-lg">
-                İnşaat, tadilat veya yıkım süreçlerinde ortaya çıkan atıkların
-                taşınması ve ortamın temizlenmesi için profesyonel moloz taşıma
-                hizmeti sunuyoruz. Alanında deneyimli ekibimiz ve modern
-                ekipmanlarımızla, hızlı, güvenli ve çevreye duyarlı çözümler
-                sağlıyoruz. Projenizin sorunsuz ilerlemesi için yükünüzü
-                hafifletiyor, temiz bir çalışma alanı oluşturuyoruz.
-              </p>
+
+      {/* Hizmetler bölümü */}
+      <section
+        aria-labelledby="hizmetlerimiz-baslik"
+        className="flex flex-wrap justify-center md:px-[30px] lg:px-[100px] py-8"
+      >
+        {serviceAlbums.map((service) => (
+          <article
+            key={service.id}
+            id={service.id}
+            className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6 scroll-mt-72"
+          >
+            <Image
+              className="rounded-t-2xl"
+              src={service.img}
+              alt={service.alt}
+              width={350}
+              height={215}
+            />
+            <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
+              <div>
+                <h3 className="font-semibold text-2xl py-4 hover:text-amber-400">
+                  {service.title}
+                </h3>
+                <p className="text-lg">{service.description}</p>
+              </div>
+              <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
+                <Link href={service.href} className="sariButton gap-1">
+                  İş Örneklerimiz <ArrowRight />
+                </Link>
+              </div>
             </div>
-            <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
-              <Link
-                href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
-                className="sariButton gap-1"
-              >
-                İş Örneklerimiz <ArrowRight />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6">
-          <Image
-            className="rounded-t-2xl"
-            src="/images/altyapi.jpg"
-            alt="ünlü hafriyat yalova alt yapı"
-            width={350}
-            height={215}
-          />
-          <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
-            <div>
-              <h3
-                id="alt-yapi"
-                className="font-semibold text-2xl py-4 hover:text-amber-400 scroll-mt-72"
-              >
-                Alt Yapı Çalışmaları
-              </h3>
-              <p className="text-lg">
-                Firmamız, altyapı projelerinde deneyimli kadrosu ve modern
-                ekipmanlarıyla, kaliteli ve güvenilir çözümler sunmaktadır.
-                Kanalizasyon sistemleri, su hatları ve doğalgaz hatlarının
-                döşenmesi gibi altyapı işlerinde, projelerin ihtiyaçlarına özel
-                çözümleri üretiyoruz. Tüm süreçlerde uzun ömürlü ve güvenli
-                uygulamalarla hizmet veriyor, kamu ve özel sektör projelerinde
-                yüksek memnuniyet sağlıyoruz.
-              </p>
-            </div>
-            <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
-              <Link
-                href="/tr/hizmetlerimiz/alt-yapi"
-                className="sariButton gap-1"
-              >
-                İş Örneklerimiz <ArrowRight />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6">
-          <Image
-            className="rounded-t-2xl"
-            src="/images/tesviye.jpg"
-            alt="Ünlü hafriyat yalova tesviye üst yapı"
-            width={350}
-            height={215}
-          />
-          <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
-            <div>
-              <h3
-                id="tesviye"
-                className="font-semibold text-2xl py-4 hover:text-amber-400 scroll-mt-72"
-              >
-                Arazi Düzeltme ve Tesviye
-              </h3>
-              <p className="text-lg">
-                İnşaat öncesi hazırlıkların en önemli adımlarından biri olan
-                tesviye işlemlerini, hassasiyetle ve profesyonelce
-                gerçekleştiriyoruz. Zeminin projeye uygun hale getirilmesi için
-                gerekli tüm düzenlemeleri modern ekipmanlarımızla yapıyoruz.
-                Sağlam bir temel, doğru şekilde hazırlanmış bir zeminle başlar.
-              </p>
-            </div>
-            <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
-              <Link
-                href="/tr/hizmetlerimiz/tesviye"
-                className="sariButton gap-1"
-              >
-                İş Örneklerimiz <ArrowRight />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6">
-          <Image
-            className="rounded-t-2xl"
-            src="/images/yikim.jpg"
-            alt="ünlü hafriyat yalova bina yıkım"
-            width={350}
-            height={215}
-          />
-          <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
-            <div>
-              <h3
-                id="bina-yikim"
-                className="font-semibold text-2xl py-4 hover:text-amber-400 scroll-mt-72"
-              >
-                Bina Yıkım
-              </h3>
-              <p className="text-lg">
-                Yıkım süreci, titizlik ve uzmanlık gerektiren bir iştir.
-                Firmamız, küçük ölçekli yapılardan büyük endüstriyel binalara
-                kadar her türlü yıkımı, güvenli ve planlı bir şekilde
-                gerçekleştirir. Alanın yeniden kullanıma hazır hale gelmesi için
-                gerekli tüm işlemleri eksiksiz olarak yürütürüz.
-              </p>
-            </div>
-            <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
-              <Link
-                href="/tr/hizmetlerimiz/bina-yikim"
-                className="sariButton gap-1"
-              >
-                İş Örneklerimiz <ArrowRight />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center my-6">
-          <Image
-            className="rounded-t-2xl"
-            src="/images/yol.jpg"
-            alt="ünlü hafriyat yalova bina yıkım"
-            width={350}
-            height={215}
-          />
-          <div className="bg-gray-100 max-w-[350px] p-5 h-full flex flex-col justify-between rounded-b-2xl">
-            <div>
-              <h3
-                id="yol-yapim-parke"
-                className="font-semibold text-2xl py-4 hover:text-amber-400 scroll-mt-72"
-              >
-                Yol Yapım - Parke Döşeme
-              </h3>
-              <p className="text-lg">
-                Firmamız, yol açma çalışmaları ve parke taşı döşeme alanında
-                güvenilir ve pratik çözümler sunar. Ekipmanlarımız ve deneyimli
-                kadromuzla, her türlü zemine uygun, uzun ömürlü uygulamalar
-                gerçekleştiriyoruz. Ulaşım yollarının düzenlenmesi ve çevre
-                düzenleme projelerinde yanınızdayız.
-              </p>
-            </div>
-            <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
-              <Link
-                href="/tr/hizmetlerimiz/yol-yapim-parke"
-                className="sariButton gap-1"
-              >
-                İş Örneklerimiz <ArrowRight />
-              </Link>
-            </div>
-          </div>
-        </div>
+          </article>
+        ))}
       </section>
     </main>
   );
