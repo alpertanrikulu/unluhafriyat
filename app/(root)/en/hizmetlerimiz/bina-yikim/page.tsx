@@ -1,7 +1,7 @@
-import HizmetBanner from "@/components/HizmetBanner";
-import WorkExamples from "@/components/WorkExamples";
+import HizmetBanner from "@/components/en/HizmetBanner";
+import WorkExamples from "@/components/en/WorkExamples";
 import React from "react";
-import metadata from "@/lib/metadata/tr/yol-yapim-parke";
+import metadata from "@/lib/metadata/en/bina-yikim";
 
 export { metadata };
 
@@ -59,28 +59,19 @@ const page = () => {
 
   return (
     <main>
-      <HizmetBanner hizmet="Yol Yapım - Parke Döşeme" images={images} />
+      <HizmetBanner hizmet="Bina Yıkım Hizmetleri" images={images} />
 
       <section
+        aria-labelledby="bina-yikim-baslik"
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
-        aria-labelledby="work-examples-heading"
       >
-        <header className="mb-10 text-center">
-          <h2
-            id="work-examples-heading"
-            className="text-3xl font-bold text-gray-800"
-          >
-            Yol Yapım & Parke Döşeme Projelerimiz
-          </h2>
-          <p className="text-lg mt-4 max-w-2xl text-gray-600">
-            Gerçekleştirdiğimiz projelerden bazılarını aşağıda
-            inceleyebilirsiniz.
-          </p>
-        </header>
+        <h1 id="bina-yikim-baslik" className="sr-only">
+          Bina Yıkım Hizmetleri
+        </h1>
 
-        {works.map((work, k) => (
+        {works.map((work, index) => (
           <article
-            key={k}
+            key={index}
             className="w-full max-w-5xl my-8"
             aria-label={`Çalışma: ${work.title}`}
           >

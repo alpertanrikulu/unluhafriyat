@@ -1,6 +1,9 @@
 import HizmetBanner from "@/components/HizmetBanner";
 import WorkExamples from "@/components/WorkExamples";
 import React from "react";
+import metadata from "@/lib/metadata/tr/bina-yikim";
+
+export { metadata };
 
 const page = () => {
   const images: string[] = [

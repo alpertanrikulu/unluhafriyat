@@ -1,7 +1,7 @@
-import HizmetBanner from "@/components/HizmetBanner";
-import WorkExamples from "@/components/WorkExamples";
+import HizmetBanner from "@/components/en/HizmetBanner";
+import WorkExamples from "@/components/en/WorkExamples";
 import React from "react";
-import metadata from "@/lib/metadata/tr/yol-yapim-parke";
+import metadata from "@/lib/metadata/en/tesviye";
 
 export { metadata };
 
@@ -59,24 +59,15 @@ const page = () => {
 
   return (
     <main>
-      <HizmetBanner hizmet="Yol Yapım - Parke Döşeme" images={images} />
+      <HizmetBanner hizmet="Yol Yapım ve Parke Taşı Döşeme" images={images} />
 
       <section
+        aria-labelledby="yol-yapim-parke-baslik"
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
-        aria-labelledby="work-examples-heading"
       >
-        <header className="mb-10 text-center">
-          <h2
-            id="work-examples-heading"
-            className="text-3xl font-bold text-gray-800"
-          >
-            Yol Yapım & Parke Döşeme Projelerimiz
-          </h2>
-          <p className="text-lg mt-4 max-w-2xl text-gray-600">
-            Gerçekleştirdiğimiz projelerden bazılarını aşağıda
-            inceleyebilirsiniz.
-          </p>
-        </header>
+        <h1 id="yol-yapim-parke-baslik" className="sr-only">
+          Yol Yapım ve Parke Taşı Döşeme
+        </h1>
 
         {works.map((work, k) => (
           <article

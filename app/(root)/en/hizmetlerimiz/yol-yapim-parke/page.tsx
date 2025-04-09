@@ -1,7 +1,7 @@
 import HizmetBanner from "@/components/HizmetBanner";
 import WorkExamples from "@/components/WorkExamples";
 import React from "react";
-import metadata from "@/lib/metadata/tr/yol-yapim-parke";
+import metadata from "@/lib/metadata/en/yol-yapim-parke";
 
 export { metadata };
 

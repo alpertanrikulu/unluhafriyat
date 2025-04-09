@@ -1,15 +1,39 @@
-import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import { Toaster } from "@/components/ui/sonner";
 import Header from "@/components/Header";
-import React from "react";
+import Footer from "@/components/Footer";
 
-const layout = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <>
-      <Header />
-      {children}
-      <Footer />
-    </>
-  );
+const myFont = localFont({
+  src: "../../fonts/Poppins-Regular.ttf",
+});
+
+export const metadata: Metadata = {
+  title: "Yalova ünlü hafriyat",
+  description: "Yalova, Kepçe, hafriyat, ekskvatör, kamyon, kiralık kepçe",
+  icons: ["/metalogodark.svg"],
 };
 
-export default layout;
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="tr"
+      dir="ltr"
+      className={`${myFont.className} scroll-smooth md:scroll-auto`}
+    >
+      <body
+        className={`antialiased`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <Header />
+        {children}
+        <Footer />
+        <Toaster />
+      </body>
+    </html>
+  );
+}

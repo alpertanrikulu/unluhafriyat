@@ -42,7 +42,7 @@ const Page = () => {
 
       {/* Biz Kimiz */}
       <section
-        className="px-[75px] flex items-center justify-center h-[100vh] bg-gray-300"
+        className="px-[75px] flex items-center justify-center h-[100vh] bg-gray-100"
         aria-labelledby="about-heading"
       >
         <div className="flex justify-center">
