@@ -1,4 +1,4 @@
-// app/tr/hizmetlerimiz/hafriyat-moloz-tasima/page.tsx
+// app/en/hizmetlerimiz/hafriyat-moloz-tasima/page.tsx
 
 import HizmetBanner from "@/components/en/HizmetBanner";
 import WorkExamples from "@/components/en/WorkExamples";

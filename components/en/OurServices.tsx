@@ -13,14 +13,14 @@ const OurServices = () => {
   return (
     <Carousel
       className="w-full max-w-2xl mx-auto md:hidden"
-      aria-label="Hizmetlerimiz mobil kaydırıcı"
+      aria-label="Our Services Mobile Slider"
     >
       <CarouselContent>
         {/* 1. Kart */}
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
+              href="/en/hizmetlerimiz/hafriyat-moloz-tasima"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -29,11 +29,11 @@ const OurServices = () => {
                   src="/images/moloz.jpg"
                   width={292}
                   height={215}
-                  alt="Hafriyat ve moloz taşıma hizmeti"
+                  alt="Excavation and debris removal service"
                 />
                 <figcaption className="mt-2">
                   <h3 className="text-xl font-semibold text-center">
-                    Hafriyat - Moloz Taşıma
+                    Excavation & Debris Removal
                   </h3>
                 </figcaption>
               </figure>
@@ -45,7 +45,7 @@ const OurServices = () => {
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/alt-yapi"
+              href="/en/hizmetlerimiz/alt-yapi"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -54,10 +54,12 @@ const OurServices = () => {
                   src="/images/altyapi.jpg"
                   width={292}
                   height={215}
-                  alt="Altyapı hizmeti"
+                  alt="Infrastructure service"
                 />
                 <figcaption className="mt-2">
-                  <h3 className="text-xl font-semibold text-center">Altyapı</h3>
+                  <h3 className="text-xl font-semibold text-center">
+                    Infrastructure
+                  </h3>
                 </figcaption>
               </figure>
             </Link>
@@ -68,7 +70,7 @@ const OurServices = () => {
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/tesviye"
+              href="/en/hizmetlerimiz/tesviye"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -77,11 +79,11 @@ const OurServices = () => {
                   src="/images/tesviye.jpg"
                   width={292}
                   height={215}
-                  alt="Arazi düzeltme ve tesviye hizmeti"
+                  alt="Land leveling and grading service"
                 />
                 <figcaption className="mt-2">
                   <h3 className="text-xl font-semibold text-center">
-                    Arazi Düzeltme ve Tesviye
+                    Land Leveling & Grading
                   </h3>
                 </figcaption>
               </figure>
@@ -93,7 +95,7 @@ const OurServices = () => {
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/bina-yikim"
+              href="/en/hizmetlerimiz/bina-yikim"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -102,11 +104,11 @@ const OurServices = () => {
                   src="/images/yikim.jpg"
                   width={292}
                   height={215}
-                  alt="Bina yıkım hizmeti"
+                  alt="Building demolition service"
                 />
                 <figcaption className="mt-2">
                   <h3 className="text-xl font-semibold text-center">
-                    Bina Yıkım
+                    Building Demolition
                   </h3>
                 </figcaption>
               </figure>
@@ -118,7 +120,7 @@ const OurServices = () => {
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/yol-yapim-parke"
+              href="/en/hizmetlerimiz/yol-yapim-parke"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -127,11 +129,11 @@ const OurServices = () => {
                   src="/images/yol.jpg"
                   width={292}
                   height={215}
-                  alt="Yol yapımı ve parke döşeme hizmeti"
+                  alt="Road construction and paving service"
                 />
                 <figcaption className="mt-2">
                   <h3 className="text-xl font-semibold text-center">
-                    Yol Yapım - Parke Döşeme
+                    Road Construction & Paving
                   </h3>
                 </figcaption>
               </figure>

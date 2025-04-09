@@ -6,23 +6,24 @@ import React from "react";
 const MobilNav = () => {
   return (
     <ul
+      aria-label="Main menu"
       className="max-md:absolute max-md:top-[112px] max-md:left-[75px] max-md:z-10 max-md:p-10 max-md:bg-gray-100 max-md:rounded-2xl max-md:space-y-4 md:flex md:justify-end md:gap-2"
       style={{ width: "calc(100% - 150px)" }}
     >
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/tr">Ana Sayfa</Link>
+        <Link href="/en">Home</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/tr/hakkimizda">Hakkımızda</Link>
+        <Link href="/en/hakkimizda"> About Us</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/tr/hizmetlerimiz">Hizmetlerimiz</Link>
+        <Link href="/en/hizmetlerimiz">Our Services</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/tr/galeri">Galeri</Link>
+        <Link href="/en/galeri">Gallery</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/tr/iletisim">İletişim</Link>
+        <Link href="/en/iletisim">Contact</Link>
       </li>
       <li className="md:hidden">
         <div className="flex justify-around">

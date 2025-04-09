@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer
       className="bg-gray-200 p-7 min-h-[40vh] flex flex-col justify-center"
-      aria-label="Site Altbilgisi"
+      aria-label="Site Footer"
     >
       <div className="flex justify-center max-md:items-center flex-col md:flex-row md:justify-around gap-7">
         {/* Logo ve Sosyal Medya */}
@@ -74,49 +74,49 @@ const Footer = () => {
         </div>
 
         {/* Hızlı Menü */}
-        <nav aria-label="Hızlı Menü" className="flex flex-col gap-3">
-          <h4 className="font-medium text-xl max-md:text-center">Hızlı Menü</h4>
+        <nav aria-label="Quick Menu" className="flex flex-col gap-3">
+          <h4 className="font-medium text-xl max-md:text-center">Quick Menu</h4>
           <ul className="flex flex-col gap-3">
             <li className="flex items-center gap-1">
               <ChevronRight />
               <Link className="hover:underline text-md font-normal" href="/">
-                Ana Sayfa
+                Home
               </Link>
             </li>
             <li className="flex items-center gap-1">
               <ChevronRight />
               <Link
                 className="hover:underline text-md font-normal"
-                href="/tr/hakkimizda"
+                href="/en/hakkimizda"
               >
-                Hakkımızda
+                About Us
               </Link>
             </li>
             <li className="flex items-center gap-1">
               <ChevronRight />
               <Link
                 className="hover:underline text-md font-normal"
-                href="/tr/hizmetlerimiz"
+                href="/en/hizmetlerimiz"
               >
-                Hizmetlerimiz
+                Our Services
               </Link>
             </li>
             <li className="flex items-center gap-1">
               <ChevronRight />
               <Link
                 className="hover:underline text-md font-normal"
-                href="/tr/galeri"
+                href="/en/galeri"
               >
-                Galeri
+                Gallery
               </Link>
             </li>
             <li className="flex items-center gap-1">
               <ChevronRight />
               <Link
                 className="hover:underline text-md font-normal"
-                href="/tr/iletisim"
+                href="/en/iletisim"
               >
-                İletişim
+                Contact
               </Link>
             </li>
           </ul>
@@ -124,10 +124,10 @@ const Footer = () => {
 
         {/* Mobil Sosyal Medya */}
         <section
-          aria-label="Sosyal Medya"
+          aria-label="Social Media"
           className="flex flex-col gap-3 text-center md:hidden"
         >
-          <h4 className="font-medium text-xl">Sosyal Medya</h4>
+          <h4 className="font-medium text-xl">Social Media</h4>
           <ul className="flex flex-col gap-2">
             <li className="flex gap-1 items-center justify-center">
               <Facebook />
@@ -150,11 +150,11 @@ const Footer = () => {
 
         {/* İletişim */}
         <section
-          aria-label="İletişim Bilgileri"
+          aria-label="Contact Information"
           className="flex flex-col gap-4 text-center md:text-start justify-center md:items-start"
         >
           <h4 className="font-medium text-xl max-md:text-center">
-            <Link href="/tr/iletisim">İletişim</Link>
+            <Link href="/en/iletisim">Contact Information</Link>
           </h4>
           <address className="not-italic flex flex-col gap-2 text-md font-normal">
             <div className="flex items-start gap-1 justify-center md:justify-start">

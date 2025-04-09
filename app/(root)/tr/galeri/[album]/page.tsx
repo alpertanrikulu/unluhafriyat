@@ -69,7 +69,7 @@ const Page = ({ params }: Props) => {
                   alt={`${albumData.title} - Görsel ${index + 1}`}
                   width={500}
                   height={400}
-                  className="rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
+                  className="rounded-xl shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
                 />
               </button>
             </DialogTrigger>

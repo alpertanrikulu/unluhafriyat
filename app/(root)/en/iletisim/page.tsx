@@ -13,11 +13,11 @@ const page = () => {
   return (
     <main className="py-20">
       <div className="bg-gray-200 py-8">
-        <h1 className="text-4xl text-center font-semibold">İletişim</h1>
+        <h1 className="text-4xl text-center font-semibold">Contact</h1>
       </div>
       <section className="flex flex-wrap py-10 md:py-15 px-5 md:px-15">
         <article
-          aria-label="İletişim Bilgileri"
+          aria-label="Contact Information"
           className="flex flex-col justify-center items-center px-5 py-5 gap-3 w-full md:w-1/3"
         >
           <div className="flex flex-col items-center mb-5">
@@ -31,7 +31,7 @@ const page = () => {
           <div className="flex flex-col items-center mb-5">
             <Image
               src="/whatsapp.svg"
-              alt="whatsapp ikonu"
+              alt="whatsapp icon"
               width={36}
               height={36}
             />
@@ -85,7 +85,7 @@ const page = () => {
       </section>
       <section className="w-full px-5 md:px-15">
         <div className="flex flex-col justify-center items-center bg-gray-200 p-10 rounded-2xl">
-          <h2 className="text-3xl text-center font-medium">Mesaj Gönder</h2>
+          <h2 className="text-3xl text-center font-medium"> Send a Message</h2>
 
           <SendMail />
         </div>

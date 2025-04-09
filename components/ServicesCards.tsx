@@ -5,11 +5,11 @@ import React from "react";
 const ServicesCards = () => {
   return (
     <div
-      className="flex flex-wrap justify-center max-md:hidden items-center lg:min-h-[90vh]"
+      className="flex flex-wrap justify-center max-md:hidden lg:min-h-[90vh]"
       aria-label="Hizmet kartları masaüstü görünümü"
     >
       {/* Kart 1 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
           className="flex flex-col justify-center items-center gap-4 py-5"
@@ -32,7 +32,7 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 2 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/alt-yapi"
           className="flex flex-col justify-center items-center gap-4 py-5"
@@ -53,7 +53,7 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 3 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/tesviye"
           className="flex flex-col justify-center items-center gap-4 py-5"
@@ -76,7 +76,7 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 4 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/bina-yikim"
           className="flex flex-col justify-center items-center gap-4 py-5"
@@ -97,7 +97,7 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 5 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/yol-yapim-parke"
           className="flex flex-col justify-center items-center gap-4 py-5"

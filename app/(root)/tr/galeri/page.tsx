@@ -36,9 +36,7 @@ const page = () => {
                 width={400}
                 height={300}
               />
-              <h2 className="text-xl font-semibold my-5 capitalize">
-                {e.album.split("-").join(" ")}
-              </h2>
+              <h2 className="text-xl font-semibold my-5">{e.title}</h2>
             </Link>
           </article>
         ))}

@@ -23,10 +23,10 @@ const Page = () => {
                 className="sariButton hover:bg-amber-200"
                 href="/tr/iletisim"
               >
-                Mesaj Bırak <ChevronRight />
+                Leave a Message <ChevronRight />
               </Link>
               <Link className="sariButton hover:bg-amber-200" href="#">
-                Şantiyemiz <ChevronRight />
+                Our Construction Site <ChevronRight />
               </Link>
             </div>
           </div>
@@ -34,8 +34,8 @@ const Page = () => {
             id="hero-heading"
             className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]"
           >
-            Ağır yükleri hafifletir,
-            <br /> güçlü makinelerle geleceği inşa ederiz!
+            We lighten heavy loads &<br /> build the future with powerful
+            machines!
           </h1>
         </div>
       </section>
@@ -55,21 +55,22 @@ const Page = () => {
           </figure>
           <div className="px-3 md:px-5 py-6 bg-white max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
             <h2 id="about-heading" className="text-3xl font-semibold">
-              Biz Kimiz?
+              Who Are We?
             </h2>
             <p className="text-md md:text-xl font-medium">
-              Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı ve
-              yıkım işleriyle güvenilir hizmet sunuyoruz. İhtiyacınıza uygun
-              kiralayabileceğiniz iş makineleri veya deneyimli ekibimizle,
-              projelerinizi hızlı ve sorunsuz tamamlamanızı sağlıyoruz. Güçlü
-              makinelerimiz ve tecrübemizle her türlü kazı, dolgu ve yıkım
-              işinde yanınızdayız!
+              We offer reliable services in excavation, infrastructure,
+              superstructure, and demolition across Yalova and the Marmara
+              Region. Whether you need to rent suitable construction machinery
+              or get support from our experienced team, we ensure your projects
+              are completed quickly and smoothly. With our powerful machines and
+              expertise, we are here for all types of excavation, filling, and
+              demolition work!
             </p>
             <Link
               href="/tr/hakkimizda"
               className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
             >
-              Bizi Daha Yakından Tanıyın <ChevronRight />
+              Get to Know Us Better <ChevronRight />
             </Link>
           </div>
         </div>
@@ -82,7 +83,7 @@ const Page = () => {
         aria-labelledby="services-heading"
       >
         <h2 id="services-heading" className="text-3xl font-semibold mb-5">
-          Hizmetlerimiz
+          Our Services
         </h2>
         <OurServices />
         <ServicesCards />

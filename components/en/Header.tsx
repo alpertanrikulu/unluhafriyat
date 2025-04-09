@@ -9,8 +9,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
-import Burger from "@/components/Burger";
-import MobilNav from "@/components/MobilNav";
+import Burger from "@/components/en/Burger";
+import MobilNav from "@/components/en/MobilNav";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean | null>(null);
@@ -72,17 +72,17 @@ const Header = () => {
             <DropdownMenu>
               <DropdownMenuTrigger className="flex gap-1 text-lg hover:cursor-pointer">
                 <Image
-                  src="/turkeyicon.svg"
+                  src="/ukflag.svg"
                   alt="turk bayragi"
                   width={25}
                   height={18}
                 />{" "}
-                Türkçe
+                English
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link className="text-lg" href="/en">
-                    English
+                  <Link className="text-lg" href="/tr">
+                    Türkçe
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>

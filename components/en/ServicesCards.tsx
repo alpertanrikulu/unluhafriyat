@@ -5,13 +5,13 @@ import React from "react";
 const ServicesCards = () => {
   return (
     <div
-      className="flex flex-wrap justify-center max-md:hidden items-center lg:min-h-[90vh]"
+      className="flex flex-wrap justify-center max-md:hidden lg:min-h-[90vh]"
       aria-label="Hizmet kartları masaüstü görünümü"
     >
       {/* Kart 1 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
+          href="/en/hizmetlerimiz/hafriyat-moloz-tasima"
           className="flex flex-col justify-center items-center gap-4 py-5"
         >
           <figure>
@@ -20,11 +20,11 @@ const ServicesCards = () => {
               src="/images/moloz.jpg"
               width={292}
               height={215}
-              alt="Hafriyat ve moloz taşıma hizmeti"
+              alt="Excavation and debris removal service"
             />
             <figcaption className="mt-2 text-center">
-              <h3 className="text-2xl lg:text-3xl font-semibold">
-                Hafriyat - Moloz Taşıma
+              <h3 className="text-xl md:text-2xl font-semibold">
+                Excavation & Debris Removal
               </h3>
             </figcaption>
           </figure>
@@ -32,9 +32,9 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 2 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/alt-yapi"
+          href="/en/hizmetlerimiz/alt-yapi"
           className="flex flex-col justify-center items-center gap-4 py-5"
         >
           <figure>
@@ -43,19 +43,21 @@ const ServicesCards = () => {
               src="/images/altyapi.jpg"
               width={292}
               height={215}
-              alt="Altyapı çalışmaları hizmeti"
+              alt="Infrastructure service"
             />
             <figcaption className="mt-2 text-center">
-              <h3 className="text-2xl lg:text-3xl font-semibold">Altyapı</h3>
+              <h3 className="text-xl md:text-2xl font-semibold">
+                Infrastructure
+              </h3>
             </figcaption>
           </figure>
         </Link>
       </article>
 
       {/* Kart 3 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/tesviye"
+          href="/en/hizmetlerimiz/tesviye"
           className="flex flex-col justify-center items-center gap-4 py-5"
         >
           <figure>
@@ -64,11 +66,11 @@ const ServicesCards = () => {
               src="/images/tesviye.jpg"
               width={292}
               height={215}
-              alt="Arazi düzeltme ve tesviye hizmeti"
+              alt="Land leveling and grading service"
             />
             <figcaption className="mt-2 text-center">
-              <h3 className="text-2xl lg:text-3xl font-semibold">
-                Arazi Düzeltme ve Tesviye
+              <h3 className="text-xl md:text-2xl font-semibold">
+                Land Leveling & Grading
               </h3>
             </figcaption>
           </figure>
@@ -76,9 +78,9 @@ const ServicesCards = () => {
       </article>
 
       {/* Kart 4 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/bina-yikim"
+          href="/en/hizmetlerimiz/bina-yikim"
           className="flex flex-col justify-center items-center gap-4 py-5"
         >
           <figure>
@@ -87,19 +89,21 @@ const ServicesCards = () => {
               src="/images/yikim.jpg"
               width={292}
               height={215}
-              alt="Bina yıkım hizmeti"
+              alt="Building demolition service"
             />
             <figcaption className="mt-2 text-center">
-              <h3 className="text-2xl lg:text-3xl font-semibold">Bina Yıkım</h3>
+              <h3 className="text-xl md:text-2xl font-semibold">
+                Building Demolition
+              </h3>
             </figcaption>
           </figure>
         </Link>
       </article>
 
       {/* Kart 5 */}
-      <article className="w-1/2 lg:w-1/3">
+      <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/yol-yapim-parke"
+          href="/en/hizmetlerimiz/yol-yapim-parke"
           className="flex flex-col justify-center items-center gap-4 py-5"
         >
           <figure>
@@ -108,11 +112,11 @@ const ServicesCards = () => {
               src="/images/yol.jpg"
               width={292}
               height={215}
-              alt="Yol yapım ve parke döşeme hizmeti"
+              alt="Road construction and paving service"
             />
             <figcaption className="mt-2 text-center">
-              <h3 className="text-2xl lg:text-3xl font-semibold">
-                Yol Yapım - Parke Döşeme
+              <h3 className="text-xl md:text-2xl font-semibold">
+                Road Construction & Paving
               </h3>
             </figcaption>
           </figure>

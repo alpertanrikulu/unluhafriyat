@@ -2,17 +2,17 @@
 export const albums = [
   {
     album: "santiyemiz",
-    title: "Şantiyemiz",
+    title: "Our Construction Site",
     images: ["/images/moloz1.jpg", "/images/moloz2.jpg", "/images/moloz3.jpg", "/images/tesviye.jpg"],
   },
   {
     album: "araclarimiz",
-    title: "Araçlarımız",
+    title: "Our Vehicles",
     images: ["/images/moloz2.jpg", "/images/moloz3.jpg", "/images/moloz1.jpg"],
   },
   {
     album: "hafriyat-projelerimiz",
-    title: "Hafriyat işlerimiz",
+    title: "Excavation Projects",
     images: ["/images/moloz3.jpg", "/images/moloz1.jpg", "/images/moloz2.jpg"],
   },
 ];
@@ -70,7 +70,7 @@ export const serviceAlbums = [
     title: "Hafriyat - Moloz Taşıma",
     img: "/images/moloz.jpg",
     alt: "ünlü hafriyat yalova moloz kaldırma",
-    href: "/tr/hizmetlerimiz/hafriyat-moloz-tasima",
+    href: "/en/hizmetlerimiz/hafriyat-moloz-tasima",
     description:
       "İnşaat, tadilat veya yıkım süreçlerinde ortaya çıkan atıkların taşınması ve ortamın temizlenmesi için profesyonel moloz taşıma hizmeti sunuyoruz. Alanında deneyimli ekibimiz ve modern ekipmanlarımızla, hızlı, güvenli ve çevreye duyarlı çözümler sağlıyoruz.",
   },
@@ -79,7 +79,7 @@ export const serviceAlbums = [
     title: "Alt Yapı Çalışmaları",
     img: "/images/altyapi.jpg",
     alt: "ünlü hafriyat yalova alt yapı",
-    href: "/tr/hizmetlerimiz/alt-yapi",
+    href: "/en/hizmetlerimiz/alt-yapi",
     description:
       "Firmamız, altyapı projelerinde deneyimli kadrosu ve modern ekipmanlarıyla, kaliteli ve güvenilir çözümler sunmaktadır. Kanalizasyon, su hatları ve doğalgaz gibi altyapı işleriniz için özel çözümler üretiyoruz.",
   },
@@ -88,7 +88,7 @@ export const serviceAlbums = [
     title: "Arazi Düzeltme ve Tesviye",
     img: "/images/tesviye.jpg",
     alt: "ünlü hafriyat yalova tesviye üst yapı",
-    href: "/tr/hizmetlerimiz/tesviye",
+    href: "/en/hizmetlerimiz/tesviye",
     description:
       "İnşaat öncesi hazırlıkların en önemli adımlarından biri olan tesviye işlemlerini, hassasiyetle ve profesyonelce gerçekleştiriyoruz. Sağlam bir temel, doğru hazırlanmış zeminle başlar.",
   },
@@ -97,7 +97,7 @@ export const serviceAlbums = [
     title: "Bina Yıkım",
     img: "/images/yikim.jpg",
     alt: "ünlü hafriyat yalova bina yıkım",
-    href: "/tr/hizmetlerimiz/bina-yikim",
+    href: "/en/hizmetlerimiz/bina-yikim",
     description:
       "Yıkım süreci, titizlik ve uzmanlık gerektiren bir iştir. Küçük yapılardan büyük endüstriyel binalara kadar güvenli ve planlı yıkım çözümleri sunuyoruz.",
   },
@@ -106,7 +106,7 @@ export const serviceAlbums = [
     title: "Yol Yapım - Parke Döşeme",
     img: "/images/yol.jpg",
     alt: "ünlü hafriyat yalova yol yapım parke döşeme",
-    href: "/tr/hizmetlerimiz/yol-yapim-parke",
+    href: "/en/hizmetlerimiz/yol-yapim-parke",
     description:
       "Firmamız, yol açma çalışmaları ve parke taşı döşeme alanında güvenilir ve pratik çözümler sunar. Dayanıklı ve estetik yüzeyler için yanınızdayız.",
   },
