@@ -1,29 +1,42 @@
-// lib/metadata/tr/anasayfa.ts
+// lib/metadata/en/home.ts
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Yalova Hafriyat | Ünlü Hafriyat & Yıkım Hizmetleri",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Yalova ve Marmara Bölgesi'nde hafriyat, altyapı, yıkım ve iş makineleri kiralama hizmetleri. Ünlü Hafriyat ile güçlü makineler ve deneyimli ekip hizmetinizde!",
+    "Excavation, infrastructure, demolition, and heavy machinery rental services in Yalova and the Marmara Region. With Ünlü Hafriyat, you get powerful machines and an experienced team at your service!",
   keywords: [
-    "Yalova Hafriyat",
-    "Yıkım Hizmetleri",
-    "İş Makinesi Kiralama",
-    "Alt yapı çalışmaları",
-    "Kazı dolgu işleri",
-    "Ünlü Hafriyat",
+    "Yalova Excavation",
+    "Yalova Excavator",
+    "Yalova Bulldozer",
+    "Yalova Building Demolition",
+    "Yalova Truck",
+    "Orhangazi Excavation",
+    "Orhangazi Excavator",
+    "Orhangazi Bulldozer",
+    "Orhangazi Truck",
+    "Orhangazi Building Demolition",
+    "Izmit Excavation",
+    "Izmit Excavator",
+    "Izmit Bulldozer",
+    "Izmit Truck",
+    "Izmit Building Demolition",
+    "Yalova Machinery Rental",
+    "Infrastructure Works",
+    "Excavation and Filling",
+    "Ünlü Hafriyat Yalova",
   ],
   openGraph: {
-    title: "Yalova Hafriyat | Ünlü Hafriyat",
+    title: "Ünlü Hafriyat Yalova | Excavator Rental",
     description:
-      "Yalova ve çevresinde profesyonel hafriyat ve yıkım hizmetleri sunuyoruz.",
-    url: "https://www.orneksite.com",
+      "Offering professional excavation and demolition services in Yalova and surrounding areas.",
+    url: "https://www.yoursite.com",
     images: [
       {
-        url: "/kepce-bg.jpg",
+        url: "/excavator-bg.jpg",
         width: 1200,
         height: 630,
-        alt: "Ünlü Hafriyat",
+        alt: "Ünlü Hafriyat Yalova",
       },
     ],
   },

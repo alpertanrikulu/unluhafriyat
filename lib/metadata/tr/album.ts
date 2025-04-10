@@ -7,9 +7,10 @@ export async function generateMetadata({
 }: {
   params: { album: string };
 }): Promise<Metadata> {
-  const album = albums.find((a) => a.album === params.album);
+  const {album} = await params;
+  const albumum = albums.find((a) => a.album === album);
 
-  if (!album) {
+  if (!albumum) {
     return {
       title: "Fotoğraf Albümü | Ünlü Hafriyat",
       description: "Albüm bulunamadı.",
@@ -17,17 +18,17 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${album.title} | Ünlü Hafriyat`,
-    description: `${album.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
+    title: `${albumum.title} | Ünlü Hafriyat`,
+    description: `${albumum.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
     openGraph: {
-      title: `${album.title} | Ünlü Hafriyat`,
-      description: `${album.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
+      title: `${albumum.title} | Ünlü Hafriyat`,
+      description: `${albumum.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
       images: [
         {
-          url: album.images[0],
+          url: albumum.images[0],
           width: 800,
           height: 600,
-          alt: album.title,
+          alt: albumum.title,
         },
       ],
     },

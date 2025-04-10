@@ -16,7 +16,7 @@ const Page = () => {
         className="relative bg-[url('/kepce-bg.jpg')] bg-cover bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
-        <div className="absolute w-full h-full bg-gradient-to-tr from-black/70 via-black/10 to-black/0">
+        <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/10 to-black/0">
           <div className="flex justify-end">
             <div className="space-y-3 mt-5 mr-7">
               <Link
@@ -32,10 +32,10 @@ const Page = () => {
           </div>
           <h1
             id="hero-heading"
-            className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]"
+            className="absolute text-white text-3xl sm:text-4xl lg:text-5xl font-black bottom-15 left-10 md:left-15 md:max-w-[55vw] leading-relaxed"
           >
-            We lighten heavy loads &<br /> build the future with powerful
-            machines!
+            We lighten heavy loads &
+            <br /> build the future with powerful machines!
           </h1>
         </div>
       </section>
@@ -82,7 +82,7 @@ const Page = () => {
         id="hizmetlerimiz"
         aria-labelledby="services-heading"
       >
-        <h2 id="services-heading" className="text-3xl font-semibold mb-5">
+        <h2 id="services-heading" className="text-4xl font-bold mt-6 mb-10">
           Our Services
         </h2>
         <OurServices />

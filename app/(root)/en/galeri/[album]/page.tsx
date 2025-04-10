@@ -28,8 +28,9 @@ interface Props {
   };
 }
 
-const Page = ({ params }: Props) => {
-  const albumData = albums.find((a) => a.album === params.album);
+const Page = async ({ params }: Props) => {
+  const { album } = await params;
+  const albumData = albums.find((a) => a.album === album);
 
   const range = (x: number, y: number) =>
     Array.from({ length: y - x + 1 }, (_, i) => x + i);
@@ -52,21 +53,21 @@ const Page = ({ params }: Props) => {
     <main>
       <header className="bg-gray-200 py-8 mb-5">
         <h1 className="text-4xl text-center font-semibold">
-          {albumData.title} Albüm Görselleri
+          {albumData.title} Image Gallery
         </h1>
       </header>
 
       <section
-        aria-label={`${albumData.title} albümündeki görseller`}
+        aria-label={`${albumData.title} image gallery`}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-10 md:px-24 my-48"
       >
         {albumData.images.map((src, index) => (
           <Dialog key={index}>
             <DialogTrigger asChild>
-              <button aria-label={`Fotoğraf ${index + 1}`}>
+              <button aria-label={`Image ${index + 1}`}>
                 <Image
                   src={src}
-                  alt={`${albumData.title} - Görsel ${index + 1}`}
+                  alt={`${albumData.title} - image ${index + 1}`}
                   width={500}
                   height={400}
                   className="rounded-xl shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
@@ -77,7 +78,7 @@ const Page = ({ params }: Props) => {
             <DialogContent className="!max-w-[80vw] !h-fit !max-h-[90vh]">
               <DialogHeader>
                 <DialogTitle className="sr-only">
-                  {albumData.title} - Görsel Galerisi
+                  {albumData.title} - Image Gallery
                 </DialogTitle>
               </DialogHeader>
 
@@ -90,7 +91,7 @@ const Page = ({ params }: Props) => {
                     >
                       <Image
                         src={item}
-                        alt={`${albumData.title} - Görsel ${i + 1}`}
+                        alt={`${albumData.title} - image ${i + 1}`}
                         width={1792}
                         height={1024}
                         className="!w-fit h-fit !max-h-[80vh]"

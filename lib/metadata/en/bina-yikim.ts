@@ -1,27 +1,28 @@
+// lib/metadata/en/services/building-demolition.ts
 import { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Bina Yıkım Hizmetleri | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Yalova'da bina yıkımı hizmeti. Güvenli, hızlı ve profesyonel yıkım çözümleri için bizimle iletişime geçin. Ünlü Hafriyat olarak tüm yıkım işlerinizde yanınızdayız.",
+    "Excavation, infrastructure, demolition, and heavy machinery rental services in Yalova and the Marmara Region. With Ünlü Hafriyat, you get powerful machines and an experienced team at your service!",
   keywords: [
-    "Yalova bina yıkım",
-    "bina yıkım hizmeti",
-    "Yalova hafriyat",
-    "moloz kaldırma",
-    "Yalova iş makineleri",
-    "güvenli yıkım",
+    "Yalova building demolition",
+    "building demolition service",
+    "Yalova excavation",
+    "debris removal",
+    "Yalova heavy machinery",
+    "safe demolition",
   ],
   alternates: {
-    canonical: "/tr/hizmetlerimiz/bina-yikim",
+    canonical: "/en/services/building-demolition",
   },
   openGraph: {
-    title: "Bina Yıkım Hizmetleri | Ünlü Hafriyat Yalova",
+    title: "Building Demolition Services | Ünlü Hafriyat Yalova",
     description:
-      "Yalova'da bina yıkımı hizmeti. Güvenli, hızlı ve profesyonel yıkım çözümleri için bizimle iletişime geçin.",
-    url: "https://www.orneksite.com/tr/hizmetlerimiz/bina-yikim",
+      "Building demolition services in Yalova. Contact us for safe, fast, and professional demolition solutions.",
+    url: "https://www.yoursite.com/en/services/building-demolition",
     type: "article",
-    locale: "tr_TR",
+    locale: "en_US",
   },
 };
 

@@ -1,37 +1,38 @@
+// lib/metadata/en/excavation-debris.ts
 import { Metadata } from "next";
 
-const hafriyatMolozMetadata: Metadata = {
-  title: "Hafriyat ve Moloz Taşıma Hizmeti | Ünlü Hafriyat Yalova",
+const excavationDebrisMetadata: Metadata = {
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Moloz atımı ve hafriyat taşıma hizmetlerimizle hızlı ve güvenilir çözümler sunuyoruz. Hemen iletişime geçin!",
+    "Excavation, infrastructure, demolition, and heavy machinery rental services in Yalova and the Marmara region. With Ünlü Hafriyat, powerful machinery and an experienced team are at your service!",
   keywords: [
-    "hafriyat",
-    "moloz taşıma",
-    "inşaat atığı",
-    "hafriyat firması",
-    "moloz kaldırma",
-    "şantiye temizliği",
-    "yalova hafriyat",
-    "orhangazi hafriyat",
-    "bursa hafriyat",
-    "yalova ekskavatör",
-    "yalova jcb",
-    "yalova kepçe",
+    "excavation",
+    "debris removal",
+    "construction waste",
+    "excavation company",
+    "debris lifting",
+    "site cleaning",
+    "Yalova excavation",
+    "Orhangazi excavation",
+    "Bursa excavation",
+    "Yalova excavator",
+    "Yalova JCB",
+    "Yalova backhoe",
   ],
   openGraph: {
-    title: "Hafriyat ve Moloz Taşıma Hizmeti",
+    title: "Excavation and Debris Removal Service",
     description:
-      "Hafriyat ve moloz taşıma hizmetimizle inşaat sonrası temizliğiniz bizimle daha kolay. Hızlı ve güvenilir hizmet!",
-    url: "https://seninsiteadresin.com/tr/hizmetlerimiz/hafriyat-moloz-tasima",
+      "With our excavation and debris removal service, your post-construction cleanup becomes easier. Fast and reliable service!",
+    url: "https://yoursiteaddress.com/en/services/excavation-debris-removal",
     images: [
       {
-        url: "https://seninsiteadresin.com/images/moloz1.jpg",
+        url: "https://yoursiteaddress.com/images/debris1.jpg",
         width: 1200,
         height: 630,
-        alt: "Hafriyat ve Moloz Taşıma",
+        alt: "Excavation and Debris Removal",
       },
     ],
   },
 };
 
-export default hafriyatMolozMetadata;
+export default excavationDebrisMetadata;

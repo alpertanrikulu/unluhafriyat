@@ -1,52 +1,57 @@
 import type { Metadata } from "next";
 
-const hizmetlerimizMetadata: Metadata = {
-  title: "Hizmetlerimiz | Ünlü Hafriyat Yalova",
+const servicesMetadata: Metadata = {
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Ünlü Hafriyat olarak altyapı, bina yıkım, hafriyat - moloz taşıma, arazi düzeltme, tesviye ve yol yapım alanlarında profesyonel hizmet sunuyoruz.",
+    "At Ünlü Hafriyat, we offer professional services in infrastructure, building demolition, excavation, debris removal, land leveling, grading, and road construction.",
   keywords: [
-    "yalova hafriyat",
-    "bursa hafriyat",
-    "orhangazi hafriyat",
-    "izmit hafriyat",
-    "moloz taşıma",
-    "bina yıkımı",
-    "alt yapı çalışmaları",
-    "tesviye",
-    "yol yapım",
-    "parke taşı döşeme",
-    "inşaat hizmetleri",
-    "hafriyat firması",
-    "ekskavatör",
-    "kamyon",
+    "Yalova Excavation",
+    "Yalova Backhoe",
+    "Yalova Excavator",
+    "Yalova Building Demolition",
+    "Yalova Dump Truck",
+    "Orhangazi Excavation",
+    "Orhangazi Backhoe",
+    "Orhangazi Excavator",
+    "Orhangazi Dump Truck",
+    "Orhangazi Building Demolition",
+    "Izmit Excavation",
+    "Izmit Backhoe",
+    "Izmit Excavator",
+    "Izmit Dump Truck",
+    "Izmit Building Demolition",
+    "Yalova Equipment Rental",
+    "Infrastructure Works",
+    "Excavation and Filling Works",
+    "Ünlü Hafriyat Yalova",
   ],
   alternates: {
-    canonical: "https://www.orneksite.com/tr/hizmetlerimiz", // kendi domain adresinle değiştir
+    canonical: "https://www.examplesite.com/en/services", // change to your own domain
   },
   openGraph: {
-    title: "Hizmetlerimiz | Ünlü Hafriyat Yalova",
+    title: "Our Services | Ünlü Hafriyat Yalova",
     description:
-      "Yalova Ünlü Hafriyat: Alt yapı, bina yıkım, hafriyat ve moloz taşıma gibi profesyonel hizmetleri keşfedin.",
-    url: "https://www.orneksite.com/tr/hizmetlerimiz",
+      "Discover professional services such as infrastructure, building demolition, excavation, and debris removal at Ünlü Hafriyat Yalova.",
+    url: "https://www.examplesite.com/en/services",
     siteName: "Yalova Ünlü Hafriyat",
     images: [
       {
-        url: "https://www.orneksite.com/images/moloz.jpg", // Sosyal paylaşım görseli
+        url: "https://www.examplesite.com/images/debris.jpg", // Social media image
         width: 1200,
         height: 630,
-        alt: "Ünlü Hafriyat Yalova Hizmetlerimiz",
+        alt: "Ünlü Hafriyat Yalova Services",
       },
     ],
-    locale: "tr_TR",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hizmetlerimiz | Ünlü Hafriyat Yalova",
+    title: "Our Services | Ünlü Hafriyat Yalova",
     description:
-      "Alt yapı, yıkım, hafriyat taşıma, tesviye ve daha fazlası için profesyonel çözümler.",
-    images: ["https://www.orneksite.com/images/moloz.jpg"],
+      "Professional solutions for infrastructure, demolition, excavation, grading, and more.",
+    images: ["https://www.examplesite.com/images/debris.jpg"],
   },
 };
 
-export default hizmetlerimizMetadata;
+export default servicesMetadata;

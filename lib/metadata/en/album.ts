@@ -1,4 +1,4 @@
-// /lib/metadata/tr/galeri/album.ts
+// /lib/metadata/en/gallery/album.ts
 import { Metadata } from "next";
 import { albums } from "@/lib/albums";
 
@@ -7,27 +7,28 @@ export async function generateMetadata({
 }: {
   params: { album: string };
 }): Promise<Metadata> {
-  const album = albums.find((a) => a.album === params.album);
+  const { album } = await params;
+  const albumData = albums.find((a) => a.album === album);
 
-  if (!album) {
+  if (!albumData) {
     return {
-      title: "Fotoğraf Albümü | Ünlü Hafriyat",
-      description: "Albüm bulunamadı.",
+      title: "Photo Album | Ünlü Hafriyat",
+      description: "Album not found.",
     };
   }
 
   return {
-    title: `${album.title} | Ünlü Hafriyat`,
-    description: `${album.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
+    title: `${albumData.title} | Ünlü Hafriyat`,
+    description: `You can explore the images of the ${albumData.title} album on this page.`,
     openGraph: {
-      title: `${album.title} | Ünlü Hafriyat`,
-      description: `${album.title} albümüne ait görselleri bu sayfada inceleyebilirsiniz.`,
+      title: `${albumData.title} | Ünlü Hafriyat`,
+      description: `You can explore the images of the ${albumData.title} album on this page.`,
       images: [
         {
-          url: album.images[0],
+          url: albumData.images[0],
           width: 800,
           height: 600,
-          alt: album.title,
+          alt: albumData.title,
         },
       ],
     },

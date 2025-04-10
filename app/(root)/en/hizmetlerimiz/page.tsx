@@ -10,24 +10,27 @@ export { metadata };
 const page = () => {
   return (
     <main>
-      {/* Sayfa başlığı */}
+      {/* Page title */}
       <header className="bg-gray-200 py-8 text-center">
-        <h1 className="text-4xl font-bold">Hizmetlerimiz</h1>
+        <h1 className="text-4xl font-bold">Our Services</h1>
       </header>
 
-      {/* İçindekiler navigasyonu */}
-      <nav aria-label="İçindekiler" className="text-center mt-4 md:hidden">
-        <h2 className="text-xl font-medium mb-2">İçindekiler</h2>
+      {/* Table of contents navigation */}
+      <nav
+        aria-label="Table of contents"
+        className="text-center mt-4 md:hidden"
+      >
+        <h2 className="text-xl font-medium mb-2">Contents</h2>
         <ul className="flex flex-wrap justify-center gap-4">
           {[
             {
               href: "#hafriyat-moloz-tasima",
-              label: "Hafriyat - Moloz Taşıma",
+              label: "Excavation - Debris Removal",
             },
-            { href: "#alt-yapi", label: "Alt Yapı Çalışmaları" },
-            { href: "#tesviye", label: "Tesviye" },
-            { href: "#bina-yikim", label: "Bina Yıkım" },
-            { href: "#yol-yapim-parke", label: "Yol Yapım - Parke Döşeme" },
+            { href: "#alt-yapi", label: "Infrastructure Works" },
+            { href: "#tesviye", label: "Land Grading" },
+            { href: "#bina-yikim", label: "Building Demolition" },
+            { href: "#yol-yapim-parke", label: "Road Construction - Paving" },
           ].map((item) => (
             <li
               key={item.href}
@@ -39,9 +42,9 @@ const page = () => {
         </ul>
       </nav>
 
-      {/* Hizmetler bölümü */}
+      {/* Services section */}
       <section
-        aria-labelledby="hizmetlerimiz-baslik"
+        aria-labelledby="our-services-heading"
         className="flex flex-wrap justify-center md:px-[30px] lg:px-[100px] py-8"
       >
         {serviceAlbums.map((service) => (
@@ -66,7 +69,7 @@ const page = () => {
               </div>
               <div className="flex justify-center items-center mt-3 transition-transform duration-300 hover:scale-105">
                 <Link href={service.href} className="sariButton gap-1">
-                  İş Örneklerimiz <ArrowRight />
+                  View Projects <ArrowRight />
                 </Link>
               </div>
             </div>

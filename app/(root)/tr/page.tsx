@@ -32,7 +32,7 @@ const Page = () => {
           </div>
           <h1
             id="hero-heading"
-            className="absolute font-medium text-2xl lg:text-4xl md:text-3xl text-white bottom-10 left-5 md:left-10 md:max-w-[50vw]"
+            className="absolute text-white text-3xl sm:text-4xl lg:text-5xl font-black bottom-15 left-10 md:left-15 md:max-w-[55vw] leading-relaxed"
           >
             Ağır yükleri hafifletir,
             <br /> güçlü makinelerle geleceği inşa ederiz!
@@ -58,12 +58,16 @@ const Page = () => {
               Biz Kimiz?
             </h2>
             <p className="text-md md:text-xl font-medium">
-              Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı ve
-              yıkım işleriyle güvenilir hizmet sunuyoruz. İhtiyacınıza uygun
-              kiralayabileceğiniz iş makineleri veya deneyimli ekibimizle,
-              projelerinizi hızlı ve sorunsuz tamamlamanızı sağlıyoruz. Güçlü
-              makinelerimiz ve tecrübemizle her türlü kazı, dolgu ve yıkım
-              işinde yanınızdayız!
+              Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı, yıkım
+              ve kazı-dolgu gibi her türlü inşaat hizmetinde güvenilir ve
+              profesyonel bir çözüm ortağıyız. Ünlü Hafriyat olarak, deneyimli
+              ekibimiz ve güçlü iş makinelerimizle projelerinizi hızlı, güvenli
+              ve zamanında tamamlamak için yanınızdayız. Yalova'dan
+              Orhangazi'ye, İzmit'ten çevre ilçelere kadar geniş hizmet
+              ağımızla, iş makineleri kiralama veya komple proje çözümleri
+              sunuyoruz. Müşteri memnuniyetini ön planda tutarak, her işte
+              kaliteyi esas alıyoruz. Bizimle çalışarak, inşaat ve yıkım
+              işlerinizin profesyonel bir şekilde ilerlediğini göreceksiniz!
             </p>
             <Link
               href="/tr/hakkimizda"
@@ -81,7 +85,7 @@ const Page = () => {
         id="hizmetlerimiz"
         aria-labelledby="services-heading"
       >
-        <h2 id="services-heading" className="text-3xl font-semibold mb-5">
+        <h2 id="services-heading" className="text-4xl font-bold mt-6 mb-10">
           Hizmetlerimiz
         </h2>
         <OurServices />

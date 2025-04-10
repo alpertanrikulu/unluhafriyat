@@ -151,7 +151,7 @@ const Footer = () => {
         {/* İletişim */}
         <section
           aria-label="İletişim Bilgileri"
-          className="flex flex-col gap-4 text-center md:text-start justify-center md:items-start"
+          className="flex flex-col gap-4 text-center md:text-start md:items-start"
         >
           <h4 className="font-medium text-xl max-md:text-center">
             <Link href="/tr/iletisim">İletişim</Link>

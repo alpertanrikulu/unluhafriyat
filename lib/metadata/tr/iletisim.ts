@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Ünlü Hafriyat Yalova İletişim | Yalova Ekskavatör",
-  description: "Yalova'da hafriyat, bina yıkım, kepçe, kamyon ve ekskavatör hizmetlerimiz hakkında bilgi almak için hemen bizimle iletişime geçin!",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Yıkım Hizmetleri",
+  description: "Yalova ve Marmara Bölgesi'nde hafriyat, altyapı, yıkım ve iş makineleri kiralama hizmetleri. Ünlü Hafriyat ile güçlü makineler ve deneyimli ekip hizmetinizde!",
   keywords: [
     "yalova hafriyat",
     "ünlü hafriyat",
@@ -11,6 +11,7 @@ const metadata: Metadata = {
     "yalova ekskavatör",
     "Yalova inşaat",
     "Yalova hafriyat telefon",
+    "yalova ekskavatör telefon",
     "ünlü hafriyat telefon",
   ],
   openGraph: {

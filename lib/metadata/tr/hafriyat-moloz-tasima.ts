@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 const hafriyatMolozMetadata: Metadata = {
-  title: "Hafriyat ve Moloz Taşıma Hizmeti | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Yıkım Hizmetleri",
   description:
-    "Moloz atımı ve hafriyat taşıma hizmetlerimizle hızlı ve güvenilir çözümler sunuyoruz. Hemen iletişime geçin!",
+    "Yalova ve Marmara Bölgesi'nde hafriyat, altyapı, yıkım ve iş makineleri kiralama hizmetleri. Ünlü Hafriyat ile güçlü makineler ve deneyimli ekip hizmetinizde!",
   keywords: [
     "hafriyat",
     "moloz taşıma",

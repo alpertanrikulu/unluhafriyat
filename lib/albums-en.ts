@@ -67,47 +67,48 @@ export const works: Works[] = [
 export const serviceAlbums = [
   {
     id: "hafriyat-moloz-tasima",
-    title: "Hafriyat - Moloz Taşıma",
+    title: "Excavation - Debris Removal",
     img: "/images/moloz.jpg",
-    alt: "ünlü hafriyat yalova moloz kaldırma",
+    alt: "unlu excavation yalova debris removal",
     href: "/en/hizmetlerimiz/hafriyat-moloz-tasima",
     description:
-      "İnşaat, tadilat veya yıkım süreçlerinde ortaya çıkan atıkların taşınması ve ortamın temizlenmesi için profesyonel moloz taşıma hizmeti sunuyoruz. Alanında deneyimli ekibimiz ve modern ekipmanlarımızla, hızlı, güvenli ve çevreye duyarlı çözümler sağlıyoruz.",
+      "We offer professional debris removal services to transport construction, renovation, or demolition waste and clean up the area. With our experienced team and modern equipment, we provide fast, safe, and eco-friendly solutions.",
   },
   {
     id: "alt-yapi",
-    title: "Alt Yapı Çalışmaları",
+    title: "Infrastructure Works",
     img: "/images/altyapi.jpg",
-    alt: "ünlü hafriyat yalova alt yapı",
+    alt: "unlu excavation yalova infrastructure",
     href: "/en/hizmetlerimiz/alt-yapi",
     description:
-      "Firmamız, altyapı projelerinde deneyimli kadrosu ve modern ekipmanlarıyla, kaliteli ve güvenilir çözümler sunmaktadır. Kanalizasyon, su hatları ve doğalgaz gibi altyapı işleriniz için özel çözümler üretiyoruz.",
+      "Our company offers high-quality and reliable solutions for infrastructure projects with an experienced team and modern equipment. We provide tailored services for sewer systems, water pipelines, and natural gas lines.",
   },
   {
     id: "tesviye",
-    title: "Arazi Düzeltme ve Tesviye",
+    title: "Land Grading",
     img: "/images/tesviye.jpg",
-    alt: "ünlü hafriyat yalova tesviye üst yapı",
+    alt: "unlu excavation yalova grading and substructure",
     href: "/en/hizmetlerimiz/tesviye",
     description:
-      "İnşaat öncesi hazırlıkların en önemli adımlarından biri olan tesviye işlemlerini, hassasiyetle ve profesyonelce gerçekleştiriyoruz. Sağlam bir temel, doğru hazırlanmış zeminle başlar.",
+      "Land grading is one of the most crucial steps in pre-construction. We carry out leveling operations with precision and professionalism. A solid foundation begins with a properly prepared ground.",
   },
   {
     id: "bina-yikim",
-    title: "Bina Yıkım",
+    title: "Building Demolition",
     img: "/images/yikim.jpg",
-    alt: "ünlü hafriyat yalova bina yıkım",
+    alt: "unlu excavation yalova building demolition",
     href: "/en/hizmetlerimiz/bina-yikim",
     description:
-      "Yıkım süreci, titizlik ve uzmanlık gerektiren bir iştir. Küçük yapılardan büyük endüstriyel binalara kadar güvenli ve planlı yıkım çözümleri sunuyoruz.",
+      "The demolition process requires precision and expertise. From small structures to large industrial buildings, we offer safe and planned demolition solutions.",
   },
   {
     id: "yol-yapim-parke",
-    title: "Yol Yapım - Parke Döşeme",
+    title: "Road Construction - Paving",
     img: "/images/yol.jpg",
-    alt: "ünlü hafriyat yalova yol yapım parke döşeme",
+    alt: "unlu excavation yalova road construction paving",
     href: "/en/hizmetlerimiz/yol-yapim-parke",
     description:
-      "Firmamız, yol açma çalışmaları ve parke taşı döşeme alanında güvenilir ve pratik çözümler sunar. Dayanıklı ve estetik yüzeyler için yanınızdayız.",
+      "We provide reliable and practical solutions in road opening and paving works. Count on us for durable and aesthetic surfaces.",
   },
 ];
+

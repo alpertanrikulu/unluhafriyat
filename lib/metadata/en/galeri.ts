@@ -1,33 +1,34 @@
+// lib/metadata/en/gallery.ts
 import type { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Galeri | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Yalova ve çevresinde gerçekleştirdiğimiz hafriyat, bina yıkımı, altyapı ve moloz taşıma hizmetlerine ait fotoğraf albümlerimizi inceleyin.",
+    "Browse our photo albums showcasing excavation, building demolition, infrastructure, and debris removal services we have carried out in Yalova and the surrounding areas.",
   keywords: [
-    "hafriyat galeri",
-    "fotoğraf albümü",
-    "ünlü hafriyat görseller",
-    "Yalova hafriyat çalışmaları",
-    "hafriyat fotoğrafları",
-    "iş makineleri görselleri",
-    "bina yıkımı görselleri"
+    "excavation gallery",
+    "photo album",
+    "Ünlü Hafriyat images",
+    "Yalova excavation works",
+    "excavation photos",
+    "heavy machinery images",
+    "building demolition images"
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Galeri | Ünlü Hafriyat",
+    title: "Gallery | Ünlü Hafriyat",
     description:
-      "Gerçekleştirdiğimiz projelere ait görselleri Ünlü Hafriyat Galeri sayfasında görüntüleyin.",
-    url: "https://www.orneksite.com/tr/galeri",
+      "View images of the projects we have carried out on the Ünlü Hafriyat Gallery page.",
+    url: "https://www.yoursite.com/en/gallery",
     siteName: "Ünlü Hafriyat",
-    locale: "tr_TR",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.orneksite.com/images/galeri-kapak.jpg",
+        url: "https://www.yoursite.com/images/gallery-cover.jpg",
         width: 800,
         height: 600,
-        alt: "Ünlü Hafriyat iş makineleri ve saha çalışmaları",
+        alt: "Ünlü Hafriyat heavy machinery and site works",
       },
     ],
   },

@@ -1,33 +1,34 @@
 import type { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Hakkımızda | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Ünlü Hafriyat olarak Yalova ve çevresinde uzun yıllara dayanan deneyimimizle hafriyat, moloz taşıma, bina yıkımı ve alt yapı hizmetleri sunmaktayız.",
+    "At Ünlü Hafriyat, with years of experience, we offer excavation, debris removal, demolition, and infrastructure services in Yalova and surrounding areas.",
   keywords: [
-    "hakkımızda",
-    "ünlü hafriyat",
-    "hafriyat firması Yalova",
-    "bina yıkım hizmeti",
-    "moloz taşıma",
-    "alt yapı çalışmaları",
-    "Yalova hafriyat"
+    "About Us",
+    "Ünlü Hafriyat",
+    "excavation company Yalova",
+    "demolition service",
+    "debris removal",
+    "debris lifting",
+    "infrastructure work",
+    "Yalova excavation",
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Hakkımızda | Ünlü Hafriyat",
+    title: "About Us | Ünlü Hafriyat Yalova",
     description:
-      "Yalova’da profesyonel hafriyat hizmetleri sunan Ünlü Hafriyat hakkında detaylı bilgi alın.",
-    url: "https://www.orneksite.com/hakkimizda",
-    siteName: "Ünlü Hafriyat",
-    locale: "tr_TR",
+      "Get detailed information about Ünlü Hafriyat, a professional excavation service provider in Yalova.",
+    url: "https://www.examplesite.com/about-us",
+    siteName: "Ünlü Hafriyat Yalova",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.orneksite.com/images/jcb.jpg",
+        url: "https://www.examplesite.com/images/jcb.jpg",
         width: 800,
         height: 600,
-        alt: "Yalova hafriyat firması iş makinesi",
+        alt: "Yalova excavation company machinery",
       },
     ],
   },

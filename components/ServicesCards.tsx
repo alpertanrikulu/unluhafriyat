@@ -12,9 +12,9 @@ const ServicesCards = () => {
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/hafriyat-moloz-tasima"
-          className="flex flex-col justify-center items-center gap-4 py-5"
+          className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
-          <figure>
+          <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
               src="/images/moloz.jpg"
@@ -35,9 +35,9 @@ const ServicesCards = () => {
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/alt-yapi"
-          className="flex flex-col justify-center items-center gap-4 py-5"
+          className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
-          <figure>
+          <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
               src="/images/altyapi.jpg"
@@ -56,9 +56,9 @@ const ServicesCards = () => {
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/tesviye"
-          className="flex flex-col justify-center items-center gap-4 py-5"
+          className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
-          <figure>
+          <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
               src="/images/tesviye.jpg"
@@ -79,9 +79,9 @@ const ServicesCards = () => {
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/bina-yikim"
-          className="flex flex-col justify-center items-center gap-4 py-5"
+          className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
-          <figure>
+          <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
               src="/images/yikim.jpg"
@@ -100,9 +100,9 @@ const ServicesCards = () => {
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
           href="/tr/hizmetlerimiz/yol-yapim-parke"
-          className="flex flex-col justify-center items-center gap-4 py-5"
+          className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
-          <figure>
+          <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
               src="/images/yol.jpg"

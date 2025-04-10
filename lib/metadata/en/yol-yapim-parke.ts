@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
-const title = "Yol Yapım ve Parke Döşeme | Ünlü Hafriyat Yalova";
+const title = "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services";
 const description =
-  "Yalova'da yol açma çalışmaları ve parke taşı döşeme hizmetlerimizle estetik ve dayanıklı yollar sunuyoruz. Profesyonel ekibimizle kaliteli çözümler.";
+  "Excavation, infrastructure, demolition, and equipment rental services in Yalova and the Marmara region. With Ünlü Hafriyat, powerful machines and an experienced team are at your service!";
 const keywords =
-  "Yalova yol yapım, parke taşı döşeme, yol açma, parke uygulama, Ünlü Hafriyat, Yalova altyapı, Yalova parke hizmeti";
+  "Yalova road construction, paving stone installation, road opening, paving application, Ünlü Hafriyat, Yalova infrastructure, Yalova paving services";
 
 const metadata: Metadata = {
   title,
@@ -13,9 +13,9 @@ const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    url: "https://unluhafriyat.com.tr/tr/hizmetlerimiz/yol-yapim-parke",
+    url: "https://unluhafriyat.com.tr/en/services/road-construction-paving",
     siteName: "Ünlü Hafriyat",
-    locale: "tr_TR",
+    locale: "en_US",
     type: "website",
   },
 };

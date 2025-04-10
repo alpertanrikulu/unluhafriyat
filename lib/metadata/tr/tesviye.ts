@@ -1,8 +1,14 @@
 const metadata = {
-    title: "Arazi Düzeltme ve Tesviye | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Yıkım Hizmetleri",
     description:
-      "Ünlü Hafriyat olarak Yalova ve çevresinde tarla, arazi ve inşaat alanları için profesyonel tesviye hizmeti sunuyoruz. Modern ekipmanlarımızla zemin düzleştirme çözümleri.",
+      "Yalova ve Marmara Bölgesi'nde hafriyat, altyapı, yıkım ve iş makineleri kiralama hizmetleri. Ünlü Hafriyat ile güçlü makineler ve deneyimli ekip hizmetinizde!",
     keywords: [
+      "yalova hafriyat",
+      "ünlü hafriyat",
+      "yalova ünlü hafriyat",
+      "yalova kamyon",
+      "yalova ekskavatör",
+      "Yalova inşaat",
       "Yalova tesviye",
       "arazi düzleştirme",
       "zemin hazırlığı",

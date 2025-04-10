@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Galeri | Ünlü Hafriyat Yalova",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Yıkım Hizmetleri",
   description:
     "Yalova ve çevresinde gerçekleştirdiğimiz hafriyat, bina yıkımı, altyapı ve moloz taşıma hizmetlerine ait fotoğraf albümlerimizi inceleyin.",
   keywords: [

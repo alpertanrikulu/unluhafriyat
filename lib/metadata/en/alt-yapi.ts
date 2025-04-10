@@ -1,32 +1,32 @@
-// lib/metadata/tr/hizmetlerimiz/alt-yapi.ts
+// lib/metadata/en/services/infrastructure.ts
 
 import { Metadata } from "next";
 
 const metadata: Metadata = {
-  title: "Alt Yapı Hizmetleri | Ünlü Hafriyat",
+  title: "Ünlü Hafriyat Yalova | Ünlü Hafriyat & Demolition Services",
   description:
-    "Ünlü Hafriyat olarak Yalova ve çevresinde profesyonel alt yapı çalışmaları sunuyoruz. Kanalizasyon, yağmur suyu drenajı ve daha fazlası.",
+    "Excavation, infrastructure, demolition, and heavy machinery rental services in Yalova and the Marmara Region. With Ünlü Hafriyat, you get powerful machines and an experienced team at your service!",
   keywords: [
-    "alt yapı çalışmaları",
-    "kanalizasyon",
-    "yağmur suyu drenajı",
-    "Yalova hafriyat",
-    "hafriyat firması",
+    "infrastructure works",
+    "sewerage",
+    "stormwater drainage",
+    "Yalova excavation",
+    "excavation company",
   ],
   openGraph: {
-    title: "Alt Yapı Hizmetleri | Ünlü Hafriyat",
+    title: "Infrastructure Services | Ünlü Hafriyat",
     description:
-      "Alt yapı ihtiyaçlarınız için güvenilir çözümler. Ünlü Hafriyat ile kaliteli hizmetin farkını yaşayın.",
-    url: "https://www.siteniz.com/tr/hizmetlerimiz/alt-yapi",
+      "Reliable solutions for your infrastructure needs. Experience the difference of quality service with Ünlü Hafriyat.",
+    url: "https://www.yoursite.com/en/services/infrastructure",
     siteName: "Ünlü Hafriyat",
     type: "website",
-    locale: "tr_TR",
+    locale: "en_US",
     images: [
       {
-        url: "/images/moloz.jpg",
+        url: "/images/debris.jpg",
         width: 800,
         height: 600,
-        alt: "Alt yapı çalışmaları örneği",
+        alt: "Example of infrastructure works",
       },
     ],
   },

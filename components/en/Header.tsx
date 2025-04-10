@@ -11,9 +11,17 @@ import {
 import Link from "next/link";
 import Burger from "@/components/en/Burger";
 import MobilNav from "@/components/en/MobilNav";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean | null>(null);
+  const pathname = usePathname(); // URL yolunu alıyoruz
+
+  const currentPath = pathname.replace(/^\/en/, "/tr");
+
+  useEffect(() => {
+    // pathname ile istediğin işlemi burada yapabilirsin
+  }, [pathname]);
 
   const navIsOpen = (e: boolean) => {
     setIsOpen(e);
@@ -81,7 +89,7 @@ const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link className="text-lg" href="/tr">
+                  <Link className="text-lg" href={currentPath}>
                     Türkçe
                   </Link>
                 </DropdownMenuItem>

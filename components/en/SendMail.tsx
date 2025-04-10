@@ -26,8 +26,8 @@ const SendMail = () => {
           setEmail("");
           setMessage("");
           setName("");
-          toast("Mesajınız Başarılı Şekilde Gönderildi", {
-            description: "En kısa sürede sizinle iletişime geçeceğiz.",
+          toast("Your message has been sent successfully", {
+            description: "We will get back to you as soon as possible.",
             duration: 10000,
             icon: <CheckCircle className="text-green-500" />,
             richColors: true,
@@ -36,9 +36,9 @@ const SendMail = () => {
           });
         },
         (error) => {
-          console.log("BİR HATA OLUŞTU", error.text);
-          toast("Mesaj gönderilirken bir hata oluştu!", {
-            description: "Lütfen daha sonra tekrar deneyin.",
+          console.log("AN ERROR OCCURRED", error.text);
+          toast("An error occurred while sending the message!", {
+            description: "Please try again later.",
             duration: 10000,
             icon: <XCircle className="text-red-500" />,
             richColors: true,
@@ -62,7 +62,7 @@ const SendMail = () => {
           id="username"
           name="username"
           aria-describedby="nameHelp"
-          placeholder="İsim Soyisim*"
+          placeholder="Full Name*"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
@@ -76,7 +76,7 @@ const SendMail = () => {
           id="useremail"
           name="useremail"
           aria-describedby="emailHelp"
-          placeholder="E-posta Adresi*"
+          placeholder="Email Address*"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -88,7 +88,7 @@ const SendMail = () => {
         id="usermessage"
         name="usermessage"
         rows={8}
-        placeholder="Mesajınızı Yazın...*"
+        placeholder="Write your message...*"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         required
@@ -97,7 +97,7 @@ const SendMail = () => {
         type="submit"
         className="bg-amber-300 py-3 px-8 hover:bg-amber-400 hover:shadow-2xl rounded-2xl text-2xl font-semibold transition-all duration-300 cursor-pointer"
       >
-        Gönder
+        Send Message
       </button>
     </form>
   );
