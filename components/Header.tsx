@@ -12,12 +12,11 @@ import Link from "next/link";
 import Burger from "@/components/Burger";
 import MobilNav from "@/components/MobilNav";
 import { usePathname } from "next/navigation";
+import { convertPath } from "@/lib/utils";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean | null>(null);
   const pathname = usePathname(); // URL yolunu alıyoruz
-
-  const currentPath = pathname.replace(/^\/tr/, "/en");
 
   useEffect(() => {
     // pathname ile istediğin işlemi burada yapabilirsin
@@ -89,7 +88,7 @@ const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link className="text-lg" href={currentPath}>
+                  <Link className="text-lg" href={convertPath(pathname)}>
                     English
                   </Link>
                 </DropdownMenuItem>

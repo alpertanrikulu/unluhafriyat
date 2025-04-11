@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Toaster } from "@/components/ui/sonner";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/en/Header";
+import Footer from "@/components/en/Footer";
 
 const myFont = localFont({
   src: "../../fonts/Poppins-Regular.ttf",

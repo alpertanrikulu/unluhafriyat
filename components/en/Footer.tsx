@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="flex justify-center max-md:items-center flex-col md:flex-row md:justify-around gap-7">
         {/* Logo ve Sosyal Medya */}
         <div className="max-md:w-[85px] max-md:h-[46px] min-w-[85px] min-h-[46px] space-y-5">
-          <Link href="/" aria-label="Anasayfa">
+          <Link href="/en" aria-label="Anasayfa">
             <Image
               src="/logo.svg"
               alt="Yalova Ünlü Hafriyat logo"
@@ -79,7 +79,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-3">
             <li className="flex items-center gap-1">
               <ChevronRight />
-              <Link className="hover:underline text-md font-normal" href="/">
+              <Link className="hover:underline text-md font-normal" href="/en">
                 Home
               </Link>
             </li>
@@ -154,7 +154,7 @@ const Footer = () => {
           className="flex flex-col gap-4 text-center md:text-start md:items-start"
         >
           <h4 className="font-medium text-xl max-md:text-center">
-            <Link href="/en/iletisim">Contact Information</Link>
+            <Link href="/en/contact">Contact Information</Link>
           </h4>
           <address className="not-italic flex flex-col gap-2 text-md font-normal">
             <div className="flex items-start gap-1 justify-center md:justify-start">
@@ -187,7 +187,7 @@ const Footer = () => {
       </div>
 
       <small className="text-sm font-light text-center md:text-end mt-10 md:mt-15 block">
-        © 2025 Tüm Hakları Saklıdır – UnluHafriyat
+        © 2025 All Rights Reserved – UnluHafriyat
       </small>
     </footer>
   );

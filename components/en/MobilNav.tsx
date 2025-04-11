@@ -14,16 +14,16 @@ const MobilNav = () => {
         <Link href="/en">Home</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/en/hakkimizda"> About Us</Link>
+        <Link href="/en/about-us"> About Us</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/en/hizmetlerimiz">Our Services</Link>
+        <Link href="/en/services">Our Services</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/en/galeri">Gallery</Link>
+        <Link href="/en/gallery">Gallery</Link>
       </li>
       <li className="text-lg md:text-xl lg:text-2xl font-medium hover:bg-amber-300 max-md:border-black max-md:border-b md:px-2 lg:px-4 md:py-1 max-md:rounded-t-lg max-md:pl-1 md:rounded-2xl whitespace-nowrap">
-        <Link href="/en/iletisim">Contact</Link>
+        <Link href="/en/contact">Contact</Link>
       </li>
       <li className="md:hidden">
         <div className="flex justify-around">

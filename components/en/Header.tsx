@@ -12,12 +12,13 @@ import Link from "next/link";
 import Burger from "@/components/en/Burger";
 import MobilNav from "@/components/en/MobilNav";
 import { usePathname } from "next/navigation";
+import { convertPath } from "@/lib/utils";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean | null>(null);
   const pathname = usePathname(); // URL yolunu alıyoruz
 
-  const currentPath = pathname.replace(/^\/en/, "/tr");
+  // const currentPath = pathname.replace(/^\/en/, "/tr");
 
   useEffect(() => {
     // pathname ile istediğin işlemi burada yapabilirsin
@@ -31,7 +32,7 @@ const Header = () => {
   return (
     <nav className="px-[75px] py-4">
       <div className="md:flex md:justify-between md:items-center">
-        <Link href="/">
+        <Link href="/en">
           <Image
             className="hidden md:block"
             src="/logo.svg"
@@ -89,7 +90,7 @@ const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link className="text-lg" href={currentPath}>
+                  <Link className="text-lg" href={convertPath(pathname)}>
                     Türkçe
                   </Link>
                 </DropdownMenuItem>
