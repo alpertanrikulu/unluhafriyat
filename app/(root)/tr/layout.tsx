@@ -9,9 +9,9 @@ const myFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yalova ünlü hafriyat",
+  title: "Ünlü Hafriyat Yalova",
   description: "Yalova, Kepçe, hafriyat, ekskvatör, kamyon, kiralık kepçe",
-  icons: ["/metalogodark.svg"],
+  icons: ["../../favicon.ico"],
 };
 
 export default function RootLayout({

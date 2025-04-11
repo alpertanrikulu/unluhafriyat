@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Toaster } from "@/components/ui/sonner";
-import Header from "@/components/en/Header";
-import Footer from "@/components/en/Footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const myFont = localFont({
   src: "../../fonts/Poppins-Regular.ttf",
 });
 
 export const metadata: Metadata = {
-  title: "Yalova ünlü hafriyat",
-  description: "Yalova, Kepçe, hafriyat, ekskvatör, kamyon, kiralık kepçe",
-  icons: ["/metalogodark.svg"],
+  title: "Ünlü Hafriyat Yalova",
+  description: "Yalova, Excavator, earthworks, dump truck, excavator rental",
+  icons: ["../../favicon.ico"],
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="tr"
+      lang="en"
       dir="ltr"
       className={`${myFont.className} scroll-smooth md:scroll-auto`}
     >
