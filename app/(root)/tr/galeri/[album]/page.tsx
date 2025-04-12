@@ -28,7 +28,7 @@ interface Props {
   };
 }
 
-const Page = async ({ params }: Props) => {
+const Page = ({ params }: Props) => {
   const { album } = params;
   const albumData = albums.find((a) => a.album === album);
 
