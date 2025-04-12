@@ -21,7 +21,7 @@ const page = () => {
             className="pb-5 px-5 rounded-2xl m-5 w-full md:w-1/3 lg:w-1/4 flex flex-col items-center"
           >
             <Link
-              href={`/en/galeri/${e.album}`}
+              href={`/en/gallery/${e.album}`}
               className="relative w-fit bg-gray-100 flex flex-col items-center gap-5 rounded-2xl hover:scale-105 transition-all duration-300 hover:shadow-[6px_6px_15px_rgba(0,0,0,0.35)]"
             >
               <div className="p-3 bg-white absolute top-5 left-10 rounded-2xl">

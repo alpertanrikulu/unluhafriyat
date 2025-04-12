@@ -28,8 +28,8 @@ interface Props {
   };
 }
 
-const Page = ({ params }: Props) => {
-  const { album } = params;
+const Page = async ({ params }: { params: Promise<{ album: string }> }) => {
+  const album = (await params).album;
   const albumData = albums.find((a) => a.album === album);
 
   const range = (x: number, y: number) =>
