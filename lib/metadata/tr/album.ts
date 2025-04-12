@@ -5,7 +5,7 @@ import { albums } from "@/lib/albums";
 export async function generateMetadata({
   params,
 }: {
-  params: { album: string };
+  params: Promise<{ album: string }>;
 }): Promise<Metadata> {
   const {album} = await params;
   const albumum = albums.find((a) => a.album === album);
