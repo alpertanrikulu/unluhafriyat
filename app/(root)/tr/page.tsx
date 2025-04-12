@@ -4,6 +4,7 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { metadata } from "@/lib/metadata/tr/anasayfa";
+import Image from "next/image";
 
 export { metadata };
 
@@ -51,10 +52,12 @@ const Page = () => {
         <div className="rounded-3xl overflow-hidden">
           <div className="flex flex-wrap justify-center bg-white">
             <figure className="w-full lg:w-2/5 flex items-center">
-              <img
+              <Image
                 src="/images/jcb.jpg"
                 alt="Yalova kepçe"
                 className="object-cover"
+                width={4032}
+                height={2268}
               />
             </figure>
             <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">

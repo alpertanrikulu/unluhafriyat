@@ -22,12 +22,6 @@ import {
 // ⬇️ SEO metadata export
 export { generateMetadata };
 
-interface Props {
-  params: {
-    album: string;
-  };
-}
-
 const Page = async ({ params }: { params: Promise<{ album: string }> }) => {
   const album = (await params).album;
   const albumData = albums.find((a) => a.album === album);

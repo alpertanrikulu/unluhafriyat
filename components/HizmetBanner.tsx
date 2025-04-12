@@ -19,7 +19,7 @@ const HizmetBanner = ({
         }
       });
     }, 5000);
-  }, []);
+  }, [images.length]);
   return (
     <section
       aria-label={`${hizmet} Banner`}
