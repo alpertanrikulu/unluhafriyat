@@ -62,18 +62,19 @@ const Page = () => {
                 Biz Kimiz?
               </h2>
               <p className="text-md md:text-xl font-medium">
-                Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı,
+                Yalova ve Marmara Bölgesi&#39;nde hafriyat, alt yapı, üst yapı,
                 yıkım ve kazı-dolgu gibi her türlü inşaat hizmetinde güvenilir
                 ve profesyonel bir çözüm ortağıyız. Ünlü Hafriyat olarak,
                 deneyimli ekibimiz ve güçlü iş makinelerimizle projelerinizi
                 hızlı, güvenli ve zamanında tamamlamak için yanınızdayız.
-                Yalova'dan Orhangazi'ye, İzmit'ten çevre ilçelere kadar geniş
-                hizmet ağımızla, iş makineleri kiralama veya komple proje
-                çözümleri sunuyoruz. Müşteri memnuniyetini ön planda tutarak,
-                her işte kaliteyi esas alıyoruz. Bizimle çalışarak, inşaat ve
-                yıkım işlerinizin profesyonel bir şekilde ilerlediğini
+                Yalova&#39;dan Orhangazi&#39;ye, İzmit&#39;ten çevre ilçelere
+                kadar geniş hizmet ağımızla, iş makineleri kiralama veya komple
+                proje çözümleri sunuyoruz. Müşteri memnuniyetini ön planda
+                tutarak, her işte kaliteyi esas alıyoruz. Bizimle çalışarak,
+                inşaat ve yıkım işlerinizin profesyonel bir şekilde ilerlediğini
                 göreceksiniz!
               </p>
+
               <Link
                 href="/tr/hakkimizda"
                 className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
