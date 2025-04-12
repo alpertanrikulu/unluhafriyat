@@ -42,6 +42,5 @@ const pathMap: PathMap = {
 
 export function convertPath(path: string): string {
   const lang = path.startsWith("/tr") ? "en" : "tr";
-  console.log("llllllllllllllllll", pathMap[lang][path] || path)
   return pathMap[lang][path] || path;
 }

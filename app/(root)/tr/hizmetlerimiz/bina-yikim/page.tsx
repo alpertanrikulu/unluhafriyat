@@ -14,7 +14,7 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
+      img: "/unluimages/yikim.jpg",
       title: "Orman müdürlüğünün moloz kaldırma işi",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
@@ -72,7 +72,7 @@ const page = () => {
         {works.map((work, index) => (
           <article
             key={index}
-            className="w-full max-w-5xl my-8"
+            className="w-full max-w-7xl my-8"
             aria-label={`Çalışma: ${work.title}`}
           >
             <WorkExamples work={work} />

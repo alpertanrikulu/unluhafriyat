@@ -13,20 +13,23 @@ const Page = () => {
       {/* Hero Alanı */}
       <section
         aria-labelledby="hero-heading"
-        className="relative bg-[url('/kepce-bg.jpg')] bg-cover bg-center"
+        className="relative bg-[url('/unluimages/yan-santiye.jpeg')] bg-cover bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
-        <div className="absolute w-full h-full bg-gradient-to-tr from-black/70 via-black/10 to-black/0">
+        <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0">
           <div className="flex justify-end">
             <div className="space-y-3 mt-5 mr-7">
               <Link
-                className="sariButton hover:bg-amber-200"
+                className="bg-amber-300 hover:bg-amber-200 transition-all hover:scale-105 duration-300 flex px-5 py-3 text-lg md:text-xl font-medium rounded-2xl hover:shadow-lg gap-2"
                 href="/tr/iletisim"
               >
                 Mesaj Bırak <ChevronRight />
               </Link>
-              <Link className="sariButton hover:bg-amber-200" href="#">
-                Şantiyemiz <ChevronRight />
+              <Link
+                className="bg-amber-300 hover:bg-amber-200 transition-all hover:scale-105 duration-300 flex px-5 py-3 text-lg md:text-xl font-medium rounded-2xl hover:shadow-lg gap-2"
+                href="https://maps.app.goo.gl/3gKmi2D1PPgxZv8a6"
+              >
+                Haritada Gör <ChevronRight />
               </Link>
             </div>
           </div>
@@ -42,39 +45,42 @@ const Page = () => {
 
       {/* Biz Kimiz */}
       <section
-        className="px-[75px] flex items-center justify-center h-[100vh] bg-gray-100"
+        className="px-[75px] py-10 flex items-center justify-center min-h-[100vh] bg-gray-100"
         aria-labelledby="about-heading"
       >
-        <div className="flex justify-center">
-          <figure className="h-full hidden md:block">
-            <img
-              src="/images/jcb.jpg"
-              alt="Yalova kepçe"
-              className="object-cover rounded-l-3xl"
-            />
-          </figure>
-          <div className="px-3 md:px-5 py-6 bg-white max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
-            <h2 id="about-heading" className="text-3xl font-semibold">
-              Biz Kimiz?
-            </h2>
-            <p className="text-md md:text-xl font-medium">
-              Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı, yıkım
-              ve kazı-dolgu gibi her türlü inşaat hizmetinde güvenilir ve
-              profesyonel bir çözüm ortağıyız. Ünlü Hafriyat olarak, deneyimli
-              ekibimiz ve güçlü iş makinelerimizle projelerinizi hızlı, güvenli
-              ve zamanında tamamlamak için yanınızdayız. Yalova'dan
-              Orhangazi'ye, İzmit'ten çevre ilçelere kadar geniş hizmet
-              ağımızla, iş makineleri kiralama veya komple proje çözümleri
-              sunuyoruz. Müşteri memnuniyetini ön planda tutarak, her işte
-              kaliteyi esas alıyoruz. Bizimle çalışarak, inşaat ve yıkım
-              işlerinizin profesyonel bir şekilde ilerlediğini göreceksiniz!
-            </p>
-            <Link
-              href="/tr/hakkimizda"
-              className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
-            >
-              Bizi Daha Yakından Tanıyın <ChevronRight />
-            </Link>
+        <div className="rounded-3xl overflow-hidden">
+          <div className="flex flex-wrap justify-center bg-white">
+            <figure className="w-full lg:w-2/5 flex items-center">
+              <img
+                src="/images/jcb.jpg"
+                alt="Yalova kepçe"
+                className="object-cover"
+              />
+            </figure>
+            <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
+              <h2 id="about-heading" className="text-3xl font-semibold">
+                Biz Kimiz?
+              </h2>
+              <p className="text-md md:text-xl font-medium">
+                Yalova ve Marmara Bölgesi'nde hafriyat, alt yapı, üst yapı,
+                yıkım ve kazı-dolgu gibi her türlü inşaat hizmetinde güvenilir
+                ve profesyonel bir çözüm ortağıyız. Ünlü Hafriyat olarak,
+                deneyimli ekibimiz ve güçlü iş makinelerimizle projelerinizi
+                hızlı, güvenli ve zamanında tamamlamak için yanınızdayız.
+                Yalova'dan Orhangazi'ye, İzmit'ten çevre ilçelere kadar geniş
+                hizmet ağımızla, iş makineleri kiralama veya komple proje
+                çözümleri sunuyoruz. Müşteri memnuniyetini ön planda tutarak,
+                her işte kaliteyi esas alıyoruz. Bizimle çalışarak, inşaat ve
+                yıkım işlerinizin profesyonel bir şekilde ilerlediğini
+                göreceksiniz!
+              </p>
+              <Link
+                href="/tr/hakkimizda"
+                className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
+              >
+                Bizi Daha Yakından Tanıyın <ChevronRight />
+              </Link>
+            </div>
           </div>
         </div>
       </section>

@@ -6,35 +6,35 @@ const WorkExamples = ({ work }: { work: Works }) => {
 
   return (
     <article
-      className="flex flex-wrap mb-20 bg-gray-100 max-w-[1440px]"
+      className="clearfix md:max-w-[70vw]"
       aria-labelledby={`work-${title.replace(/\s+/g, "-").toLowerCase()}`}
     >
-      <div className="w-full lg:w-1/3 flex justify-center lg:block mb-5 lg:mb-0 max-lg:px-5">
+      <div className="w-full md:w-auto float-none md:float-left md:mr-6 md:mb-4 mb-6">
         <Image
+          className="md:w-[500px] h-auto object-cover mx-auto md:mx-0"
           src={img}
           alt={`${title} - Yalova hafriyat çalışması`}
-          width={400}
-          height={400}
+          width={800}
+          height={800}
           loading="lazy"
         />
       </div>
-      <div className="w-full lg:w-2/3 flex items-start">
-        <div className="w-full p-5">
-          <h2
-            id={`work-${title.replace(/\s+/g, "-").toLowerCase()}`}
-            className="text-3xl md:text-4xl"
-          >
-            {title}
-          </h2>
-          <time
-            dateTime={new Date(date).toISOString()}
-            className="text-sm mb-4 font-thin block"
-          >
-            {date}
-          </time>
-          <p className="text-lg lg:text-xl md:font-medium">{content}</p>
-        </div>
-      </div>
+
+      <section className="mb-6">
+        <h2
+          id={`work-${title.replace(/\s+/g, "-").toLowerCase()}`}
+          className="text-3xl font-bold mb-4"
+        >
+          {title}
+        </h2>
+        <time
+          dateTime={new Date(date).toISOString()}
+          className="text-sm mb-4 font-thin block"
+        >
+          {date}
+        </time>
+        <p className="text-lg lg:text-xl md:font-medium">{content}</p>
+      </section>
     </article>
   );
 };

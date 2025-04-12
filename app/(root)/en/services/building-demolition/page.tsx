@@ -14,7 +14,7 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
+      img: "/unluimages/yikim.jpg",
       title: "Orman müdürlüğünün moloz kaldırma işi",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
@@ -59,21 +59,21 @@ const page = () => {
 
   return (
     <main>
-      <HizmetBanner hizmet="Bina Yıkım Hizmetleri" images={images} />
+      <HizmetBanner hizmet="Building Demolition" images={images} />
 
       <section
         aria-labelledby="bina-yikim-baslik"
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
       >
-        <h1 id="bina-yikim-baslik" className="sr-only">
-          Bina Yıkım Hizmetleri
+        <h1 id="building-demolition-title" className="sr-only">
+          Building Demolition
         </h1>
 
         {works.map((work, index) => (
           <article
             key={index}
-            className="w-full max-w-5xl my-8"
-            aria-label={`Çalışma: ${work.title}`}
+            className="w-full max-w-7xl my-8"
+            aria-label={`Work: ${work.title}`}
           >
             <WorkExamples work={work} />
           </article>

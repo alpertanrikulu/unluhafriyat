@@ -72,7 +72,7 @@ const page = () => {
         {works.map((work, k) => (
           <article
             key={k}
-            className="w-full max-w-5xl my-8"
+            className="w-full max-w-7xl my-8"
             aria-label={`Çalışma: ${work.title}`}
           >
             <WorkExamples work={work} />

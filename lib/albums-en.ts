@@ -70,7 +70,7 @@ export const serviceAlbums = [
     title: "Excavation - Debris Removal",
     img: "/images/moloz.jpg",
     alt: "unlu excavation yalova debris removal",
-    href: "/en/hizmetlerimiz/hafriyat-moloz-tasima",
+    href: "/en/services/excavation-debris-removal",
     description:
       "We offer professional debris removal services to transport construction, renovation, or demolition waste and clean up the area. With our experienced team and modern equipment, we provide fast, safe, and eco-friendly solutions.",
   },
@@ -79,7 +79,7 @@ export const serviceAlbums = [
     title: "Infrastructure Works",
     img: "/images/altyapi.jpg",
     alt: "unlu excavation yalova infrastructure",
-    href: "/en/hizmetlerimiz/alt-yapi",
+    href: "/en/services/infrastructure",
     description:
       "Our company offers high-quality and reliable solutions for infrastructure projects with an experienced team and modern equipment. We provide tailored services for sewer systems, water pipelines, and natural gas lines.",
   },
@@ -88,7 +88,7 @@ export const serviceAlbums = [
     title: "Land Grading",
     img: "/images/tesviye.jpg",
     alt: "unlu excavation yalova grading and substructure",
-    href: "/en/hizmetlerimiz/tesviye",
+    href: "/en/services/grading",
     description:
       "Land grading is one of the most crucial steps in pre-construction. We carry out leveling operations with precision and professionalism. A solid foundation begins with a properly prepared ground.",
   },
@@ -97,7 +97,7 @@ export const serviceAlbums = [
     title: "Building Demolition",
     img: "/images/yikim.jpg",
     alt: "unlu excavation yalova building demolition",
-    href: "/en/hizmetlerimiz/bina-yikim",
+    href: "/en/services/building-demolition",
     description:
       "The demolition process requires precision and expertise. From small structures to large industrial buildings, we offer safe and planned demolition solutions.",
   },
@@ -106,7 +106,7 @@ export const serviceAlbums = [
     title: "Road Construction - Paving",
     img: "/images/yol.jpg",
     alt: "unlu excavation yalova road construction paving",
-    href: "/en/hizmetlerimiz/yol-yapim-parke",
+    href: "/en/services/road-paving",
     description:
       "We provide reliable and practical solutions in road opening and paving works. Count on us for durable and aesthetic surfaces.",
   },

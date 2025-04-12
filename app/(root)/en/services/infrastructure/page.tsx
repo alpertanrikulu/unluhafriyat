@@ -60,21 +60,21 @@ const page = () => {
 
   return (
     <main>
-      <HizmetBanner hizmet="Alt Yapı Çalışmaları" images={images} />
+      <HizmetBanner hizmet="Infrastructure Works" images={images} />
 
       <section
         aria-labelledby="alt-yapi-hizmetleri"
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
       >
-        <h1 id="alt-yapi-hizmetleri" className="sr-only">
-          Alt Yapı Hizmetleri
+        <h1 id="infrastructure-works-title" className="sr-only">
+          Infrastructure Works
         </h1>
 
         {works.map((work, k) => (
           <article
             key={k}
-            className="w-full max-w-5xl my-8"
-            aria-label={`Çalışma: ${work.title}`}
+            className="w-full max-w-7xl my-8"
+            aria-label={`Work: ${work.title}`}
           >
             <WorkExamples work={work} />
           </article>

@@ -16,36 +16,19 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      img: "/unluimages/derekoy.jpg",
+      title: "Dereköy Sulama Göleti Projesi",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `Yalova Dereköy mevkiinde yer alan sulama göleti projesi kapsamında, 
+      saha içi hafriyat çalışmalarını gerçekleştirdik. Proje planında belirtilen sınır 
+      ve ölçülere uygun olarak, öncelikle çalışma alanının temizliğini yaparak bölgedeki 
+      bitki örtüsünü ve ağaçları kaldırdık. Sahada çıkan hafriyat malzemesi, doldurulması 
+      gereken bölgelere taşındı. Gölet çevresi ile membran kaplamasının yapılacağı alanların 
+      tesviye işlemlerini tamamlayarak projeyi başarıyla sonuçlandırdık.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      img: "/unluimages/golet2.jpg",
+      title: "İznik/Kırıntı köyü Sulama Göleti",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
             dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
@@ -74,7 +57,7 @@ const page = () => {
         {works.map((work, index) => (
           <article
             key={index}
-            className="w-full max-w-5xl my-8"
+            className="w-full max-w-7xl my-8"
             aria-label={`Çalışma: ${work.title}`}
           >
             <WorkExamples work={work} />

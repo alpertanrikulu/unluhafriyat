@@ -11,47 +11,53 @@ const page = () => {
         <h1 className="text-4xl text-center font-semibold">Hakkımızda</h1>
       </header>
 
-      <section className="flex flex-wrap px-10 md:px-30 my-30">
-        <div className="w-full md:w-1/3 px-3 max-md:mb-5">
-          <Image
-            className="mx-auto"
-            src="/images/jcb.jpg"
-            alt="Yalova hafriyat firması iş makinesi"
-            width={500}
-            height={500}
-          />
-        </div>
+      <section className="px-6 md:px-20 py-10 flex justify-center">
+        <article className="clearfix md:max-w-[70vw]">
+          {/* Görsel */}
+          <div className="w-full md:w-auto float-none md:float-left md:mr-6 md:mb-4 mb-6">
+            {/* <Image
+              className="w-[300px] h-auto object-cover mx-auto md:mx-0"
+              src="/unluimages/hakkimizda.jpeg"
+              alt="Yalova hafriyat firması iş makinesi"
+              width={500}
+              height={500}
+            /> */}
+            <Image
+              className="w-[300px] h-auto object-cover mx-auto md:mx-0"
+              src="/unluimages/sefa.jpeg"
+              alt="Yalova hafriyat firması iş makinesi"
+              width={500}
+              height={500}
+            />
+          </div>
 
-        <article className="w-full md:w-2/3">
-          <h2 className="text-3xl font-bold">Biz Kimiz?</h2>
+          {/* Metinler */}
+          <h2 className="text-3xl font-bold mb-4">Biz Kimiz?</h2>
 
-          <section className="my-5">
+          <section className="mb-6">
             <h3 className="text-xl font-semibold">Kuruluşumuz</h3>
-            <p className="text-lg font-medium">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-              nihil aut reprehenderit asperiores quisquam, earum illum repellat
-              voluptates! Labore, voluptatem dignissimos. Cumque eos eaque
-              incidunt impedit id sed neque vel.
+            <p className="text-lg font-medium mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
+              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
+              mollitia quisquam enim officiis alias dolores voluptatibus aut
+              dolorem sequi sed rem exercitationem facere natus asperiores ex
+              optio id consequatur.
             </p>
-          </section>
-
-          <section className="my-5">
-            <h3 className="text-xl font-semibold">Hizmet Verdiğimiz Bölge</h3>
-            <p className="text-lg font-medium">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-              nihil aut reprehenderit asperiores quisquam, earum illum repellat
-              voluptates! Labore, voluptatem dignissimos. Cumque eos eaque
-              incidunt impedit id sed neque vel.
-            </p>
-          </section>
-
-          <section className="my-5">
             <h3 className="text-xl font-semibold">Politikamız</h3>
-            <p className="text-lg font-medium">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-              nihil aut reprehenderit asperiores quisquam, earum illum repellat
-              voluptates! Labore, voluptatem dignissimos. Cumque eos eaque
-              incidunt impedit id sed neque vel.
+            <p className="text-lg font-medium mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
+              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
+              mollitia quisquam enim officiis alias dolores voluptatibus aut
+              dolorem sequi sed rem exercitationem facere natus asperiores ex
+              optio id consequatur.
+            </p>
+            <h3 className="text-xl font-semibold">Hizmet Verdiğimiz Bölge</h3>
+            <p className="text-lg font-medium mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
+              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
+              mollitia quisquam enim officiis alias dolores voluptatibus aut
+              dolorem sequi sed rem exercitationem facere natus asperiores ex
+              optio id consequatur.
             </p>
           </section>
         </article>

@@ -65,23 +65,14 @@ const page = () => {
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
         aria-labelledby="work-examples-heading"
       >
-        <header className="mb-10 text-center">
-          <h2
-            id="work-examples-heading"
-            className="text-3xl font-bold text-gray-800"
-          >
-            Yol Yapım & Parke Döşeme Projelerimiz
-          </h2>
-          <p className="text-lg mt-4 max-w-2xl text-gray-600">
-            Gerçekleştirdiğimiz projelerden bazılarını aşağıda
-            inceleyebilirsiniz.
-          </p>
-        </header>
+        <h1 id="yol-yapim-parke-doseme-baslik" className="sr-only">
+          Yol Yapım - Parke Döşeme
+        </h1>
 
         {works.map((work, k) => (
           <article
             key={k}
-            className="w-full max-w-5xl my-8"
+            className="w-full max-w-7xl my-8"
             aria-label={`Çalışma: ${work.title}`}
           >
             <WorkExamples work={work} />
