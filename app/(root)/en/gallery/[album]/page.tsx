@@ -29,7 +29,7 @@ interface Props {
 }
 
 const Page = async ({ params }: Props) => {
-  const { album } = await params;
+  const { album } = params;
   const albumData = albums.find((a) => a.album === album);
 
   const range = (x: number, y: number) =>
