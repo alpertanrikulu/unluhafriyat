@@ -15,45 +15,25 @@ const page = () => {
   const works: Works[] = [
     {
       img: "/unluimages/yikim.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      title:
+        "Demolition and Debris Removal for Yalova Provincial Special Administration",
+      date: "12/03/2024",
+      content: `As part of the building renewal project led by the Yalova Provincial 
+      Special Administration, we carried out the controlled demolition of a four-story 
+      building located in the city center. The demolition was completed in a planned and 
+      safe manner by our expert teams, prioritizing environmental and public safety. 
+      All resulting debris and construction waste were quickly removed, and the area was 
+      delivered clean and ready for further use.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/yikimyardimlasma.jpeg",
+      title: "Demolition Work for Yeni Mahalle Social Solidarity Association",
+      date: "12/03/2024",
+      content: `Prior to the construction of a new building for the Yeni Mahalle Social 
+      Solidarity Association, we conducted the demolition of old, unused structures on the site. 
+      The process was carried out with careful attention to safety and cleanliness. 
+      Debris was swiftly removed after demolition, preparing the land for the upcoming 
+      construction phase.`,
     },
   ];
 

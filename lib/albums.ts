@@ -1,67 +1,32 @@
 // lib/albums.ts
 export const albums = [
   {
-    album: "santiyemiz",
-    title: "Şantiyemiz",
-    images: ["/images/moloz1.jpg", "/images/moloz2.jpg", "/images/moloz3.jpg", "/images/tesviye.jpg"],
+    album: "hafriyat",
+    title: "Hafriyat İşlerimiz",
+    images: ["/unluimages/bahcesehir.jpeg", "/unluimages/koyevleri1.jpeg", "/unluimages/koyevleri2.jpeg", "/unluimages/sefa.jpg", "/unluimages/komatsu.jpg", "/unluimages/derekoy.jpg", "/unluimages/golet2.jpg"],
   },
   {
-    album: "araclarimiz",
-    title: "Araçlarımız",
-    images: ["/images/moloz2.jpg", "/images/moloz3.jpg", "/images/moloz1.jpg"],
+    album: "altyapi",
+    title: "Altyapı Çalışmalarımız",
+    images: ["/unluimages/altyapi1.jpg", "/unluimages/izmiraltyapi1.jpeg", "/unluimages/izmiraltyapi2.jpeg"],
   },
   {
-    album: "hafriyat-projelerimiz",
-    title: "Hafriyat işlerimiz",
-    images: ["/images/moloz3.jpg", "/images/moloz1.jpg", "/images/moloz2.jpg"],
+    album: "arazi-duzenleme",
+    title: "Arazi Düzenleme Hizmetleri",
+    images: ["/unluimages/doga1.jpeg", "/unluimages/telorgu1.jpg", "/unluimages/telorgu2.jpeg", "/unluimages/tasduvar1.jpeg", "/unluimages/tasduvar2.jpeg"],
+  },
+  {
+    album: "bina-yikim-albumu",
+    title: "Bina Yıkım Albümü",
+    images: ["/unluimages/yikimyardimlasma.jpeg", "/unluimages/yikim.jpg"],
+  },
+  {
+    album: "yol-yapim-albumu",
+    title: "Yol Yapım Albümü",
+    images: ["/unluimages/izmiryol2.jpeg", "/unluimages/izmiryol1.jpeg", "/unluimages/yolparke1.jpg", "/unluimages/yolparke2.jpeg", "/unluimages/yolparke3.jpeg"],
   },
 ];
 
-
-export const works: Works[] = [
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-];
 
 
 export const serviceAlbums = [
@@ -84,13 +49,13 @@ export const serviceAlbums = [
       "Firmamız, altyapı projelerinde deneyimli kadrosu ve modern ekipmanlarıyla, kaliteli ve güvenilir çözümler sunmaktadır. Kanalizasyon, su hatları ve doğalgaz gibi altyapı işleriniz için özel çözümler üretiyoruz.",
   },
   {
-    id: "tesviye",
-    title: "Arazi Düzeltme ve Tesviye",
+    id: "cevreduzenleme",
+    title: "Arazi Düzenleme Hizmetleri",
     img: "/images/tesviye.jpg",
     alt: "ünlü hafriyat yalova tesviye üst yapı",
-    href: "/tr/hizmetlerimiz/tesviye",
+    href: "/tr/hizmetlerimiz/cevreduzenleme",
     description:
-      "İnşaat öncesi hazırlıkların en önemli adımlarından biri olan tesviye işlemlerini, hassasiyetle ve profesyonelce gerçekleştiriyoruz. Sağlam bir temel, doğru hazırlanmış zeminle başlar.",
+      "Firmamız, çevre düzenleme çalışmalarında taş duvar, çit yapımı ve şantiye alanı temizliği gibi uygulamaları titizlikle gerçekleştirir. Projelerinize düzenli, güvenli ve kullanıma hazır alanlar kazandırıyoruz.",
   },
   {
     id: "bina-yikim",

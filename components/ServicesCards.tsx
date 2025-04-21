@@ -55,7 +55,7 @@ const ServicesCards = () => {
       {/* Kart 3 */}
       <article className="w-1/2 lg:w-1/3 h-fit">
         <Link
-          href="/tr/hizmetlerimiz/tesviye"
+          href="/tr/hizmetlerimiz/cevreduzenleme"
           className="flex flex-col justify-center items-center gap-4 py-5 hover:scale-105 transition-all duration-300"
         >
           <figure className="flex flex-col items-center">
@@ -68,7 +68,7 @@ const ServicesCards = () => {
             />
             <figcaption className="mt-2 text-center">
               <h3 className="text-2xl lg:text-3xl font-semibold">
-                Arazi Düzeltme ve Tesviye
+                Arazi Düzenleme Hizmetleri
               </h3>
             </figcaption>
           </figure>

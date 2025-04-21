@@ -1,67 +1,33 @@
 // lib/albums.ts
 export const albums = [
   {
-    album: "santiyemiz",
+    album: "our-excavation-works",
     title: "Our Construction Site",
-    images: ["/images/moloz1.jpg", "/images/moloz2.jpg", "/images/moloz3.jpg", "/images/tesviye.jpg"],
+    images: ["/unluimages/bahcesehir.jpeg", "/unluimages/koyevleri1.jpeg", "/unluimages/koyevleri2.jpeg", "/unluimages/sefa.jpg", "/unluimages/komatsu.jpg", "/unluimages/derekoy.jpg", "/unluimages/golet2.jpg"],
   },
   {
-    album: "araclarimiz",
-    title: "Our Vehicles",
-    images: ["/images/moloz2.jpg", "/images/moloz3.jpg", "/images/moloz1.jpg"],
+    album: "our-Infrastructure-projects",
+    title: "Our Infrastructure Projects",
+    images: ["/unluimages/altyapi1.jpg", "/unluimages/izmiraltyapi1.jpeg", "/unluimages/izmiraltyapi2.jpeg"],
   },
   {
-    album: "hafriyat-projelerimiz",
-    title: "Excavation Projects",
-    images: ["/images/moloz3.jpg", "/images/moloz1.jpg", "/images/moloz2.jpg"],
+    album: "land-grading-and-site-preparation",
+    title: "Land Grading & Site Preparation",
+    images: ["/unluimages/doga1.jpeg", "/unluimages/telorgu1.jpg", "/unluimages/telorgu2.jpeg", "/unluimages/tasduvar1.jpeg", "/unluimages/tasduvar2.jpeg"],
+  },
+  {
+    album: "building-demolition-gallery",
+    title: "Building Demolition Gallery",
+    images: ["/unluimages/yikimyardimlasma.jpeg", "/unluimages/yikim.jpg"],
+  },
+  {
+    album: "road-construction-gallery",
+    title: "Road Construction Gallery",
+    images: ["/unluimages/izmiryol2.jpeg", "/unluimages/izmiryol1.jpeg", "/unluimages/yolparke1.jpg", "/unluimages/yolparke2.jpeg", "/unluimages/yolparke3.jpeg"],
   },
 ];
 
 
-export const works: Works[] = [
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-  {
-    img: "/images/moloz.jpg",
-    title: "Orman müdürlüğünün moloz kaldırma işi",
-    date: "03.12.2024",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-          aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-          officia soluta, illo optio aliquam nemo facere natus reiciendis
-          repellat, exercitationem libero alias assumenda voluptas aut dolorem
-          quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-          minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-          molestias amet adipisci veritatis quaerat minima mollitia! Unde
-          sequi iusto quisquam soluta excepturi dolorum!`,
-  },
-];
 
 
 export const serviceAlbums = [

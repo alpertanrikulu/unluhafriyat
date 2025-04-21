@@ -24,7 +24,7 @@ const page = () => {
           >
             <Link
               href={`/tr/galeri/${e.album}`}
-              className="relative w-fit bg-gray-100 flex flex-col items-center gap-5 rounded-2xl hover:scale-105 transition-all duration-300 hover:shadow-[6px_6px_15px_rgba(0,0,0,0.35)]"
+              className="relative w-fit bg-gray-100 flex flex-col items-center gap-5 rounded-2xl hover:scale-105 transition-all duration-300 shadow-md hover:shadow-[6px_6px_15px_rgba(0,0,0,0.35)]"
             >
               <div className="p-3 bg-white absolute top-5 left-10 rounded-2xl">
                 <Images className="scale-150 text-black" />

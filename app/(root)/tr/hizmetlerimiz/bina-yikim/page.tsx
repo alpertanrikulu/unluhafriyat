@@ -15,45 +15,23 @@ const page = () => {
   const works: Works[] = [
     {
       img: "/unluimages/yikim.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      title: "Yalova İl Özel İdaresi Bina Yıkım ve Moloz Kaldırma Çalışması",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `Yalova İl Özel İdaresi tarafından yürütülen yapı yenileme çalışmaları 
+      kapsamında, şehir merkezinde bulunan 4 katlı bir binanın kontrollü yıkım işlemini 
+      gerçekleştirdik. Yıkım süreci, çevre güvenliği ön planda tutularak uzman ekiplerimiz 
+      tarafından planlı bir şekilde tamamlandı. Ardından, sahada oluşan moloz ve inşaat 
+      atıkları hızlıca kaldırılarak alan temiz bir şekilde teslim edildi.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      img: "/unluimages/yikimyardimlasma.jpeg",
+      title: "Yeni Mahalle Sosyal Yardımlaşma Derneği Bina Yıkım Çalışması",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `Yeni Mahalle Sosyal Yardımlaşma Derneği’nin yeni bina inşaatı öncesinde, 
+      proje alanında bulunan atıl yapıların yıkım işlemlerini gerçekleştirdik. Eski 
+      binanın kontrollü şekilde yıkılması sürecinde, çevre güvenliği ve saha temizliği 
+      titizlikle sağlandı. Yıkım sonrası oluşan molozlar kısa sürede kaldırılarak arazi, 
+      yeni yapı çalışmalarına hazır hale getirildi.`,
     },
   ];
 

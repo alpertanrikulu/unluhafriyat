@@ -15,46 +15,24 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/izmiraltyapi1.jpeg",
+      title: "Infrastructure and Cable Trenching for İzmir Wind Turbines",
+      date: "12/03/2024",
+      content: `As part of the İzmir Wind Turbine Project led by EnerjiSA, 
+      we carried out cable trenching and infrastructure works to ensure power transmission to the turbines. 
+      In line with the project scope, electrical cable channels were excavated along the designated routes. 
+      These trenches were then properly sanded and leveled. The entire process was conducted in compliance with 
+      EnerjiSA’s technical specifications, and the channels were securely backfilled, making the system ready 
+      for operation.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/altyapi1.jpg",
+      title: "Debris Removal for the Forestry Directorate",
+      date: "12/03/2024",
+      content: `We successfully completed a debris removal project for the Forestry Directorate. 
+      The work involved clearing construction and demolition waste from designated areas, ensuring 
+      environmental and operational safety. All debris was transported to authorized disposal facilities, 
+      and the site was delivered clean and ready for future use.`,
     },
   ];
 

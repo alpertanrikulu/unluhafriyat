@@ -14,46 +14,30 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/telorgu1.jpg",
+      title: "Fencing Work Around Ahmediye Village Irrigation Pond",
+      date: "12/03/2024",
+      content: `We successfully completed the installation of a security fence 
+      around the irrigation pond located in Ahmediye Village. This work contributed 
+      to the safety and infrastructure integrity of the project by clearly defining 
+      and protecting the perimeter.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/doga1.jpeg",
+      title: "Wildlife Care Facility Site Preparation",
+      date: "12/03/2024",
+      content: `As part of the wildlife care facility project, we carried out both 
+      earthworks for the foundation and environmental landscaping. The area was 
+      properly prepared to ensure a stable and secure base for the upcoming construction phase.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/tasduvar1.jpeg",
+      title: "Debris Removal for the Forestry Directorate",
+      date: "12/03/2024",
+      content: `We successfully executed debris removal works for the Forestry Directorate, 
+      ensuring the clearing of rubble and construction waste from the designated areas. 
+      All procedures were conducted with care for safety and environmental standards, 
+      leaving the site ready for further use.`,
     },
   ];
 

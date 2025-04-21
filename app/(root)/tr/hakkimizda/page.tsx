@@ -24,7 +24,7 @@ const page = () => {
             /> */}
             <Image
               className="w-[300px] h-auto object-cover mx-auto md:mx-0"
-              src="/unluimages/sefa.jpeg"
+              src="/unluimages/sefa.jpg"
               alt="Yalova hafriyat firması iş makinesi"
               width={500}
               height={500}
@@ -35,29 +35,39 @@ const page = () => {
           <h2 className="text-3xl font-bold mb-4">Biz Kimiz?</h2>
 
           <section className="mb-6">
-            <h3 className="text-xl font-semibold">Kuruluşumuz</h3>
-            <p className="text-lg font-medium mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
-              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
-              mollitia quisquam enim officiis alias dolores voluptatibus aut
-              dolorem sequi sed rem exercitationem facere natus asperiores ex
-              optio id consequatur.
+            <h3 className="text-lg font-semibold">
+              Köklü Bir Geçmiş, Güvenilir Bir Gelecek
+            </h3>
+            <p className="text-md font-medium mb-3">
+              Ünlüsa Hafriyat, 1970 yılında Adem Ünlüsa tarafından Yalova’da
+              kurulmuştur. Kuruluşundan bu yana sektördeki gelişmeleri yakından
+              takip eden firmamız, bugün ikinci kuşak temsilcisi Sefa Ünlüsa
+              liderliğinde faaliyetlerine devam etmektedir. Yarım asrı aşan
+              tecrübemizle, hafriyat ve inşaat sektöründe güvenilir bir isim
+              olmanın gururunu yaşıyoruz.
             </p>
-            <h3 className="text-xl font-semibold">Politikamız</h3>
-            <p className="text-lg font-medium mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
-              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
-              mollitia quisquam enim officiis alias dolores voluptatibus aut
-              dolorem sequi sed rem exercitationem facere natus asperiores ex
-              optio id consequatur.
+            <h3 className="text-lg font-semibold">
+              Geniş Hizmet Yelpazesi ve Modern Ekipmanlar
+            </h3>
+            <p className="text-md font-medium mb-3">
+              Hizmet alanlarımız arasında hafriyat, alt ve üst yapı çalışmaları,
+              yıkım işleri, peyzaj düzenlemeleri, asfalt ve parke yol yapımı,
+              köy altyapı projeleri ile sulama göletleri inşası yer almaktadır.
+              Ayrıca, saatlik, günlük ve aylık periyotlarla kiraya verdiğimiz iş
+              makinelerimizle (kepçe, kamyon vb.) projelerinize esnek çözümler
+              sunmaktayız. Sahip olduğumuz modern ekipmanlar ve uzman kadromuz
+              ile her ölçekten projeye profesyonel destek sağlıyoruz.
             </p>
-            <h3 className="text-xl font-semibold">Hizmet Verdiğimiz Bölge</h3>
-            <p className="text-lg font-medium mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam id
-              deserunt similique eum est ea. Possimus sunt quo temporibus, ut
-              mollitia quisquam enim officiis alias dolores voluptatibus aut
-              dolorem sequi sed rem exercitationem facere natus asperiores ex
-              optio id consequatur.
+            <h3 className="text-lg font-semibold">
+              Bölgesel Güç, Kaliteli Hizmet Anlayışı
+            </h3>
+            <p className="text-md font-medium mb-3">
+              Yalova başta olmak üzere Marmara Bölgesi genelinde birçok projede
+              yer alarak, geniş bir hizmet ağı oluşturduk. Müşteri memnuniyetini
+              temel ilke edinen firmamız, her işte kalite, güven ve zamanında
+              teslim prensipleriyle hareket etmektedir. Ünlüsa Hafriyat olarak,
+              iş ortaklarımıza sadece bir hizmet değil, aynı zamanda
+              sürdürülebilir ve sağlam çözümler sunmaya devam ediyoruz.
             </p>
           </section>
         </article>

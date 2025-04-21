@@ -20,30 +20,25 @@ const page = () => {
           aria-label="İletişim Bilgileri"
           className="flex flex-col justify-center items-center px-5 py-5 gap-3 w-full md:w-1/3"
         >
-          <div className="flex flex-col items-center mb-5">
+          <a
+            href="tel:+05349355634"
+            className="flex flex-col items-center mb-5"
+          >
             <Phone size={36} />
-            <p>
-              <a href="tel:+05349355634" className="text-blue-600 md:text-xl">
-                0534 935 5634
-              </a>
-            </p>
-          </div>
-          <div className="flex flex-col items-center mb-5">
+            <p className="text-blue-600 md:text-xl">0534 935 5634</p>
+          </a>
+          <a
+            href="https://wa.me/05349355634"
+            className="flex flex-col items-center mb-5"
+          >
             <Image
               src="/whatsapp.svg"
               alt="whatsapp ikonu"
               width={36}
               height={36}
             />
-            <p>
-              <a
-                href="https://wa.me/05349355634"
-                className="text-green-600 md:text-xl"
-              >
-                WhatsApp
-              </a>
-            </p>
-          </div>
+            <p className="text-green-600 md:text-xl">WhatsApp</p>
+          </a>
           <div className="flex flex-col items-center mb-5">
             <MapPin size={36} />
             <address className="text-center md:text-xl">

@@ -68,7 +68,7 @@ const OurServices = () => {
         <CarouselItem className="min-w-full">
           <article>
             <Link
-              href="/tr/hizmetlerimiz/tesviye"
+              href="/tr/hizmetlerimiz/cevreduzenleme"
               className="flex flex-col justify-center items-center gap-4 py-5"
             >
               <figure>
@@ -77,11 +77,11 @@ const OurServices = () => {
                   src="/images/tesviye.jpg"
                   width={292}
                   height={215}
-                  alt="Arazi düzeltme ve tesviye hizmeti"
+                  alt="Arazi düzenleme hizmeti"
                 />
                 <figcaption className="mt-2">
                   <h3 className="text-xl font-semibold text-center">
-                    Arazi Düzeltme ve Tesviye
+                    Arazi Düzenleme Hizmetleri
                   </h3>
                 </figcaption>
               </figure>

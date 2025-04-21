@@ -30,15 +30,34 @@ const page = () => {
       img: "/unluimages/golet2.jpg",
       title: "İznik/Kırıntı köyü Sulama Göleti",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `Bursa Büyükşehir Belediyesi tarafından, orman yangınlarını önlemek, 
+      tarım ve hayvancılık faaliyetlerine destek sağlamak amacıyla başlatılan 
+      sulama göleti projesinde yer aldık. Yaklaşık dört ay süren çalışmalar kapsamında, 
+      sahada 4 kamyon, 3 ekskavatör ve 2 loder kullanarak tüm hafriyat ve tesviye işlemlerini 
+      titizlikle gerçekleştirdik. Proje süresince göletin su tutma kapasitesine uygun 
+      zemin hazırlığı yapıldı ve alan, kullanıma hazır şekilde teslim edildi.`,
+    },
+    {
+      img: "/unluimages/bahcesehir.jpeg",
+      title: "İstanbul Bahçeşehir Kentsel Dönüşüm Hafriyat Çalışmaları",
+      date: "03.12.2024",
+      content: `İstanbul Bahçeşehir bölgesinde yürütülen kentsel dönüşüm projesi kapsamında, 
+      yeni yapıların temelleri için kazı ve kırım işlemlerini gerçekleştirdik. Yaklaşık 1 
+      ay süren çalışmalar boyunca, yapı güvenliğini temel alarak eski yapı kalıntıları 
+      özenle kırıldı ve zemin uygun derinlikte kazılarak inşaata hazır hale getirildi. 
+      Proje, sıkışık şehir dokusu içinde güvenli ve planlı bir şekilde tamamlanarak ilgili 
+      inşaat ekiplerine eksiksiz teslim edildi.`,
+    },
+    {
+      img: "/unluimages/koyevleri1.jpeg",
+      title: "Yalova Köy Evleri Temel Kazı Çalışmaları",
+      date: "03.12.2024",
+      content: `Yalova genelinde yapımı planlanan köy evleri projesi kapsamında, birden 
+      fazla noktada temel kazı çalışmalarını başarıyla tamamladık. Proje süresince her 
+      yapının zemin etüdüne uygun olarak kazı derinlikleri belirlendi ve iş makinelerimizle 
+      kazılar güvenli bir şekilde gerçekleştirildi. Kazı sonrası çıkan hafriyat malzemeleri, 
+      çevre düzenlemelerinde kullanılmak üzere uygun alanlara taşındı. Tüm çalışmalar, yapı 
+      temellerinin sağlam ve sorunsuz inşa edilebilmesi için özenle yürütüldü.`,
     },
   ];
 
@@ -51,7 +70,7 @@ const page = () => {
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
       >
         <h1 id="hafriyat-isleri-baslik" className="sr-only">
-          Hafriyat ve Moloz Taşıma Çalışmalarımız
+          Hafriyat ve Moloz Taşıma Hizmetlerimiz
         </h1>
 
         {works.map((work, index) => (

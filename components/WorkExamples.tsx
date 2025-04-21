@@ -11,7 +11,7 @@ const WorkExamples = ({ work }: { work: Works }) => {
     >
       <div className="w-full md:w-auto float-none md:float-left md:mr-6 md:mb-4 mb-6">
         <Image
-          className="md:w-[500px] h-auto object-cover mx-auto md:mx-0"
+          className="md:w-[500px] max-h-[400px] object-cover mx-auto md:mx-0"
           src={img}
           alt={`${title} - Yalova hafriyat çalışması`}
           width={800}
@@ -23,7 +23,7 @@ const WorkExamples = ({ work }: { work: Works }) => {
       <section className="mb-6">
         <h2
           id={`work-${title.replace(/\s+/g, "-").toLowerCase()}`}
-          className="text-3xl font-bold mb-4"
+          className="text-xl lg:text-2xl font-bold mb-4"
         >
           {title}
         </h2>
@@ -33,7 +33,7 @@ const WorkExamples = ({ work }: { work: Works }) => {
         >
           {date}
         </time>
-        <p className="text-lg lg:text-xl md:font-medium">{content}</p>
+        <p className="text-md lg:text-lg md:font-medium">{content}</p>
       </section>
     </article>
   );

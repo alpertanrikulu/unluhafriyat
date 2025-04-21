@@ -14,46 +14,26 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/izmiryol2.jpeg",
+      title: "İzmir Wind Turbine Road Construction Project",
+      date: "12/03/2024",
+      content: `As part of the wind turbine project carried out by EnerjiSA in İzmir, 
+      we undertook the task of opening and expanding access roads to the turbine sites. 
+      Throughout the six-month project, existing roads leading to the turbines were improved, 
+      and new routes were opened with necessary widenings. Ground compaction work was completed 
+      to ensure smooth transportation operations. In the end, durable and safe roads providing 
+      access to the wind turbine sites were successfully delivered.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      img: "/unluimages/yolparke1.jpg",
+      title:
+        "Paving Road Construction for Yalova Provincial Special Administration",
+      date: "12/03/2024",
+      content: `Within the scope of the rural infrastructure improvement project conducted 
+      by the Yalova Provincial Special Administration, we carried out paving road construction 
+      in various villages across Yalova. After completing the surface preparations, paving stones 
+      were meticulously laid to ensure long-lasting and durable village roads. All routes were 
+      delivered ready for use, providing safe and comfortable transportation for local residents.`,
     },
   ];
 

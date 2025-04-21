@@ -14,20 +14,20 @@ const Page = () => {
       {/* Hero Alanı */}
       <section
         aria-labelledby="hero-heading"
-        className="relative bg-[url('/unluimages/yan-santiye.jpeg')] bg-cover bg-center"
+        className="relative bg-[url('/unluimages/yan-santiye.jpeg')] bg-cover bg-left md:bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
         <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0">
           <div className="flex justify-end">
             <div className="space-y-3 mt-5 mr-7">
               <Link
-                className="bg-amber-300 hover:bg-amber-200 transition-all hover:scale-105 duration-300 flex px-5 py-3 text-lg md:text-xl font-medium rounded-2xl hover:shadow-lg gap-2"
+                className="bg-gradient-to-r to-yellow-400 from-amber-500 hover:scale-105 hover:shadow-lg transition-all duration-300 flex items-center gap-3 px-6 py-3 text-md font-medium rounded-3xl"
                 href="/tr/iletisim"
               >
                 Mesaj Bırak <ChevronRight />
               </Link>
               <Link
-                className="bg-amber-300 hover:bg-amber-200 transition-all hover:scale-105 duration-300 flex px-5 py-3 text-lg md:text-xl font-medium rounded-2xl hover:shadow-lg gap-2"
+                className="bg-gradient-to-r to-yellow-400 from-amber-500 hover:scale-105 hover:shadow-lg transition-all duration-300 flex items-center gap-3 px-6 py-3 text-md font-medium rounded-3xl"
                 href="https://maps.app.goo.gl/3gKmi2D1PPgxZv8a6"
               >
                 Haritada Gör <ChevronRight />
@@ -38,8 +38,8 @@ const Page = () => {
             id="hero-heading"
             className="absolute text-white text-3xl sm:text-4xl lg:text-5xl font-black bottom-15 left-10 md:left-15 md:max-w-[55vw] leading-relaxed"
           >
-            Ağır yükleri hafifletir,
-            <br /> güçlü makinelerle geleceği inşa ederiz!
+            Sahada Tecrübe, <br />
+            İşte Güven
           </h1>
         </div>
       </section>
@@ -80,7 +80,7 @@ const Page = () => {
 
               <Link
                 href="/tr/hakkimizda"
-                className="sariButton hover:scale-110 hover:drop-shadow-lg transition-all duration-300 flex gap-2 font-normal"
+                className="bg-gradient-to-r to-yellow-400 from-amber-500 hover:scale-105 hover:shadow-lg transition-all duration-300 flex items-center gap-3 px-6 py-3 text-md font-medium rounded-3xl"
               >
                 Bizi Daha Yakından Tanıyın <ChevronRight />
               </Link>

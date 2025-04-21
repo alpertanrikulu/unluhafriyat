@@ -25,7 +25,7 @@ const page = () => {
               label: "Hafriyat - Moloz Taşıma",
             },
             { href: "#alt-yapi", label: "Alt Yapı Çalışmaları" },
-            { href: "#tesviye", label: "Tesviye" },
+            { href: "#cevreduzenleme", label: "Çevre Düzenleme" },
             { href: "#bina-yikim", label: "Bina Yıkım" },
             { href: "#yol-yapim-parke", label: "Yol Yapım - Parke Döşeme" },
           ].map((item) => (

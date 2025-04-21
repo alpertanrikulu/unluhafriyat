@@ -1,9 +1,8 @@
 import HizmetBanner from "@/components/HizmetBanner";
 import WorkExamples from "@/components/WorkExamples";
-import metadata from "@/lib/metadata/tr/alt-yapi";
 import React from "react";
+import metadata from "@/lib/metadata/tr/tesviye";
 
-// SEO metadata export
 export { metadata };
 
 const page = () => {
@@ -15,18 +14,25 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/unluimages/izmiraltyapi1.jpeg",
-      title: "İzmir Rüzgar Türbinleri Altyapı ve Kablo Kanalı Çalışmaları",
+      img: "/unluimages/telorgu1.jpg",
+      title: "Ahmediye Köyü Sulama Göleti Tel Örgü Çalışması",
       date: "03.12.2024",
-      content: `EnerjiSA tarafından yürütülen İzmir Rüzgar Türbini Projesi kapsamında, 
-      türbinlere enerji iletimi sağlamak amacıyla kablo kanalı altyapı çalışmaları 
-      gerçekleştirdik. Proje doğrultusunda, belirlenen güzergâhlarda elektrik kablo 
-      kanalları kazıldı, ardından uygun şekilde kumlama ve tesviye işlemleri tamamlandı. 
-      Tüm süreç, EnerjiSA’nın teknik şartnamelerine uygun olarak yürütülerek kanal dolguları 
-      güvenli bir şekilde kapatıldı ve altyapı sistemleri devreye alınmaya hazır hale getirildi.`,
+      content: `Ahmediye Köyü'nde yer alan sulama göleti çevresinin güvenliğini 
+      sağlamak amacıyla, tel örgü uygulamasını başarıyla tamamladık. Çevre 
+      sınırlarının belirlenmesi ve korunması için yapılan bu çalışma, projenin 
+      güvenlik ve altyapı bütünlüğüne katkı sağladı.`,
     },
     {
-      img: "/unluimages/altyapi1.jpg",
+      img: "/unluimages/doga1.jpeg",
+      title: "Yabani Hayvanlara Bakım Tesisi Çalışmaları",
+      date: "03.12.2024",
+      content: `Yabani hayvanlara yönelik bakım tesisi projesi kapsamında, 
+      çevre düzenlemesi ile birlikte temel hafriyat işlerini tamamladık. 
+      Tesisin altyapısını güvenli ve sağlam bir şekilde hazırlayarak inşaat 
+      sürecine uygun zemin oluşturduk.`,
+    },
+    {
+      img: "/unluimages/tasduvar1.jpeg",
       title: "Orman müdürlüğünün moloz kaldırma işi",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
@@ -43,14 +49,14 @@ const page = () => {
 
   return (
     <main>
-      <HizmetBanner hizmet="Alt Yapı Çalışmaları" images={images} />
+      <HizmetBanner hizmet="Arazi Düzenleme Hizmetleri" images={images} />
 
       <section
-        aria-labelledby="alt-yapi-hizmetleri"
+        aria-labelledby="cevre-duzenleme-hizmetleri-baslik"
         className="px-10 py-20 lg:px-40 lg:py-40 flex flex-col justify-center items-center"
       >
-        <h1 id="alt-yapi-hizmetleri" className="sr-only">
-          Alt Yapı Hizmetleri
+        <h1 id="cevre-duzenleme-hizmetleri-baslik" className="sr-only">
+          Arazi Düzenleme Hizmetleri
         </h1>
 
         {works.map((work, k) => (

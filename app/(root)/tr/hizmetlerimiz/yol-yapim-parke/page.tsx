@@ -14,46 +14,27 @@ const page = () => {
 
   const works: Works[] = [
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      img: "/unluimages/izmiryol2.jpeg",
+      title: "İzmir Rüzgar Türbini Yol Yapım Projesi",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `EnerjiSA tarafından İzmir'de gerçekleştirilen rüzgar türbini projesi 
+      kapsamında, türbin alanlarına ulaşımı sağlamak amacıyla yol açma ve genişletme 
+      çalışmalarını üstlendik. Yaklaşık 6 ay süren proje süresince, türbinlere ulaşan 
+      yolların mevcut yapısı iyileştirildi; yeni yol güzergahları açılarak gerekli 
+      genişletmeler yapıldı. Nakliye işlemlerinin sorunsuz şekilde yürütülebilmesi 
+      için zemin sıkıştırma çalışmaları tamamlandı. Proje sonunda, rüzgar türbini 
+      sahasına güvenli ve dayanıklı ulaşım sağlayan yollar başarıyla teslim edildi.`,
     },
     {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
+      img: "/unluimages/yolparke1.jpg",
+      title: "Yalova İl Özel İdaresi Parke Yol Yapım Çalışmaları",
       date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
-    },
-    {
-      img: "/images/moloz.jpg",
-      title: "Orman müdürlüğünün moloz kaldırma işi",
-      date: "03.12.2024",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            dolor dolores incidunt aspernatur accusantium, doloremque placeat ab
-            aperiam ratione, eveniet porro? Reprehenderit tenetur nulla in
-            officia soluta, illo optio aliquam nemo facere natus reiciendis
-            repellat, exercitationem libero alias assumenda voluptas aut dolorem
-            quod mollitia? Ex quae maiores laboriosam, consectetur et placeat
-            minus aut eveniet rerum quia aspernatur fuga aliquid illo optio
-            molestias amet adipisci veritatis quaerat minima mollitia! Unde
-            sequi iusto quisquam soluta excepturi dolorum!`,
+      content: `Yalova İl Özel İdaresi tarafından yürütülen kırsal altyapı iyileştirme projesi 
+      kapsamında, Yalova’nın çeşitli köylerinde parke yol yapım çalışmalarını gerçekleştirdik. 
+      Proje dahilinde, üstyapı hazırlıkları tamamlandıktan sonra köy içi yolların uzun ömürlü 
+      ve dayanıklı olması amacıyla parke döşeme işlemleri titizlikle uygulandı. Tüm yollar, 
+      bölge sakinlerinin güvenli ve konforlu ulaşım sağlayabileceği şekilde kullanıma hazır 
+      olarak teslim edildi.`,
     },
   ];
 
