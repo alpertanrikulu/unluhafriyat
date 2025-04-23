@@ -20,11 +20,10 @@ const Page = () => {
         {/* Görsel arka plan yerine konumlandırıldı */}
         <Image
           src="/unluimages/yan-santiye.webp"
-          alt="Site background"
+          alt="Şantiye arka plan görseli"
           fill
-          priority // Eager loading etkisi
+          priority // eager loading etkisi
           className="object-cover object-left md:object-center -z-10"
-          sizes="100vw" // Görselin ekran boyutuna göre yüklenmesini sağla
         />
 
         <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0 z-0">
