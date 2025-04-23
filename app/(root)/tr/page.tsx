@@ -75,9 +75,8 @@ const Page = () => {
                 src="/images/jcb.webp"
                 alt="Yalova kepçe"
                 className="object-cover"
-                width={1800}
-                height={1528}
-                quality={75}
+                width={863}
+                height={733}
               />
             </figure>
             <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
