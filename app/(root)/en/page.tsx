@@ -68,13 +68,14 @@ const Page = () => {
                 className="object-cover rounded-l-3xl"
                 width={1800}
                 height={1528}
+                quality={75}
               />
             </figure>
             <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
               <h2 id="about-heading" className="text-3xl font-semibold">
                 Who Are We?
               </h2>
-              <p className="text-md md:text-xl font-medium">
+              <p className="text-md md:text-lg font-medium">
                 We offer reliable services in excavation, infrastructure,
                 superstructure, and demolition across Yalova and the Marmara
                 Region. Whether you need to rent suitable construction machinery

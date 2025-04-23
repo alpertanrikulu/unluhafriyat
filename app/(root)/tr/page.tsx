@@ -25,6 +25,16 @@ const Page = () => {
           priority // eager loading etkisi
           className="object-cover object-left md:object-center -z-10"
         />
+        {/* <img
+          alt="Şantiye arka plan görseli"
+          decoding="async"
+          data-nimg="fill"
+          className="object-cover object-left md:object-center -z-10 absolute h-[100%] w-[100%]"
+          style={{ inset: "0px" }}
+          sizes="100vw"
+          srcSet="/_next/image?url=%2Funluimages%2Fyan-santiye.webp&amp;w=640&amp;q=75 640w, /_next/…"
+          src="https://unluhafriyatyalova.com/_next/image?url=%2Funluimages%2Fyan-santiye…"
+        ></img> */}
 
         <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0 z-0">
           <div className="flex justify-end">
@@ -67,13 +77,14 @@ const Page = () => {
                 className="object-cover"
                 width={1800}
                 height={1528}
+                quality={75}
               />
             </figure>
             <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
               <h2 id="about-heading" className="text-3xl font-semibold">
                 Biz Kimiz?
               </h2>
-              <p className="text-md md:text-xl font-medium">
+              <p className="text-md md:text-lg font-medium">
                 Yalova ve Marmara Bölgesi&#39;nde hafriyat, alt yapı, üst yapı,
                 yıkım ve kazı-dolgu gibi her türlü inşaat hizmetinde güvenilir
                 ve profesyonel bir çözüm ortağıyız. Ünlü Hafriyat olarak,
