@@ -22,8 +22,9 @@ const Page = () => {
           src="/unluimages/yan-santiye.webp"
           alt="Site background"
           fill
-          priority // eager loading etkisi
+          priority // Eager loading etkisi
           className="object-cover object-left md:object-center -z-10"
+          sizes="100vw" // Görselin ekran boyutuna göre yüklenmesini sağla
         />
 
         <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/10 to-black/0 z-0">
@@ -66,8 +67,8 @@ const Page = () => {
                 src="/images/jcb.webp"
                 alt="Yalova kepçe"
                 className="object-cover rounded-l-3xl"
-                width={4032}
-                height={2268}
+                width={1800}
+                height={1528}
               />
             </figure>
             <div className="w-full lg:w-3/5 px-3 md:px-5 py-6 max-md:rounded-3xl md:rounded-r-3xl flex flex-col space-y-6 items-start justify-center">
