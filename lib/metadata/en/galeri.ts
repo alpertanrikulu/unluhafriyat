@@ -25,7 +25,7 @@ const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.yoursite.com/images/gallery-cover.jpg",
+        url: "https://www.yoursite.com/images/gallery-cover.webp",
         width: 800,
         height: 600,
         alt: "Ünlü Hafriyat heavy machinery and site works",

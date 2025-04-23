@@ -17,7 +17,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/moloz.jpg"
+              src="/images/moloz.webp"
               width={292}
               height={215}
               alt="Excavation and debris removal service"
@@ -40,7 +40,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/altyapi.jpg"
+              src="/images/altyapi.webp"
               width={292}
               height={215}
               alt="Infrastructure service"
@@ -63,7 +63,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/tesviye.jpg"
+              src="/images/tesviye.webp"
               width={292}
               height={215}
               alt="Land leveling and grading service"
@@ -86,7 +86,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/yikim.jpg"
+              src="/images/yikim.webp"
               width={292}
               height={215}
               alt="Building demolition service"
@@ -109,7 +109,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/yol.jpg"
+              src="/images/yol.webp"
               width={292}
               height={215}
               alt="Road construction and paving service"

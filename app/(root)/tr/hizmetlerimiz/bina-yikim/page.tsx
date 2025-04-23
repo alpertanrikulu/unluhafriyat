@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/yikim.jpg",
+      img: "/unluimages/yikim.webp",
       title: "Yalova İl Özel İdaresi Bina Yıkım ve Moloz Kaldırma Çalışması",
       date: "03.12.2024",
       content: `Yalova İl Özel İdaresi tarafından yürütülen yapı yenileme çalışmaları 
@@ -24,7 +24,7 @@ const page = () => {
       atıkları hızlıca kaldırılarak alan temiz bir şekilde teslim edildi.`,
     },
     {
-      img: "/unluimages/yikimyardimlasma.jpeg",
+      img: "/unluimages/yikimyardimlasma.webp",
       title: "Yeni Mahalle Sosyal Yardımlaşma Derneği Bina Yıkım Çalışması",
       date: "03.12.2024",
       content: `Yeni Mahalle Sosyal Yardımlaşma Derneği’nin yeni bina inşaatı öncesinde, 

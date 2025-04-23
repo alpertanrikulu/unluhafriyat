@@ -9,14 +9,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/derekoy.jpg",
+      img: "/unluimages/derekoy.webp",
       title: "Dereköy Irrigation Pond Project",
       date: "12/03/2024",
       content: `As part of the irrigation pond project located in the Dereköy area of Yalova, 
@@ -26,7 +26,7 @@ const page = () => {
       of the pond surroundings and the membrane installation zones, we successfully delivered the project.`,
     },
     {
-      img: "/unluimages/golet2.jpg",
+      img: "/unluimages/golet2.webp",
       title: "İznik/Kırıntı Village Irrigation Pond",
       date: "12/03/2024",
       content: `We took part in an irrigation pond project initiated by Bursa Metropolitan Municipality 
@@ -36,7 +36,7 @@ const page = () => {
       and the entire area was delivered ready for use.`,
     },
     {
-      img: "/unluimages/bahcesehir.jpeg",
+      img: "/unluimages/bahcesehir.webp",
       title: "Urban Transformation Excavation Works in Bahçeşehir, Istanbul",
       date: "12/03/2024",
       content: `As part of the urban transformation project in Bahçeşehir, Istanbul, 
@@ -47,7 +47,7 @@ const page = () => {
       over to the construction teams, ready for the next phase.`,
     },
     {
-      img: "/unluimages/koyevleri1.jpeg",
+      img: "/unluimages/koyevleri1.webp",
       title: "Foundation Excavation for Village Houses in Yalova",
       date: "12/03/2024",
       content: `Within the scope of a planned rural housing project across various areas in Yalova, 

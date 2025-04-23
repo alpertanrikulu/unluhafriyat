@@ -20,7 +20,7 @@ const metadata: Metadata = {
     url: "https://yoursiteaddress.com/en/contact",
     images: [
       {
-        url: "https://yoursiteaddress.com/images/contact.jpg",
+        url: "https://yoursiteaddress.com/images/contact.webp",
         width: 1200,
         height: 630,
         alt: "Ünlü Hafriyat Contact",

@@ -23,7 +23,7 @@ const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/images/debris.jpg",
+        url: "/images/debris.webp",
         width: 800,
         height: 600,
         alt: "Example of infrastructure works",

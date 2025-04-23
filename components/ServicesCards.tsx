@@ -17,7 +17,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/moloz.jpg"
+              src="/images/moloz.webp"
               width={292}
               height={215}
               alt="Hafriyat ve moloz taşıma hizmeti"
@@ -40,7 +40,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/altyapi.jpg"
+              src="/images/altyapi.webp"
               width={292}
               height={215}
               alt="Altyapı çalışmaları hizmeti"
@@ -61,7 +61,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/tesviye.jpg"
+              src="/images/tesviye.webp"
               width={292}
               height={215}
               alt="Arazi düzeltme ve tesviye hizmeti"
@@ -84,7 +84,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/yikim.jpg"
+              src="/images/yikim.webp"
               width={292}
               height={215}
               alt="Bina yıkım hizmeti"
@@ -105,7 +105,7 @@ const ServicesCards = () => {
           <figure className="flex flex-col items-center">
             <Image
               className="rounded-4xl"
-              src="/images/yol.jpg"
+              src="/images/yol.webp"
               width={292}
               height={215}
               alt="Yol yapım ve parke döşeme hizmeti"

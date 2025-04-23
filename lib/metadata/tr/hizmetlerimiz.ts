@@ -36,7 +36,7 @@ const hizmetlerimizMetadata: Metadata = {
     siteName: "Yalova Ünlü Hafriyat",
     images: [
       {
-        url: "https://www.orneksite.com/images/moloz.jpg", // Sosyal paylaşım görseli
+        url: "https://www.orneksite.com/images/moloz.webp", // Sosyal paylaşım görseli
         width: 1200,
         height: 630,
         alt: "Ünlü Hafriyat Yalova Hizmetlerimiz",
@@ -50,7 +50,7 @@ const hizmetlerimizMetadata: Metadata = {
     title: "Hizmetlerimiz | Ünlü Hafriyat Yalova",
     description:
       "Alt yapı, yıkım, hafriyat taşıma, tesviye ve daha fazlası için profesyonel çözümler.",
-    images: ["https://www.orneksite.com/images/moloz.jpg"],
+    images: ["https://www.orneksite.com/images/moloz.webp"],
   },
 };
 

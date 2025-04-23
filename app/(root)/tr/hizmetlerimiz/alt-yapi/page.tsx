@@ -8,14 +8,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/izmiraltyapi1.jpeg",
+      img: "/unluimages/izmiraltyapi1.webp",
       title: "İzmir Rüzgar Türbinleri Altyapı ve Kablo Kanalı Çalışmaları",
       date: "03.12.2024",
       content: `EnerjiSA tarafından yürütülen İzmir Rüzgar Türbini Projesi kapsamında, 
@@ -26,7 +26,7 @@ const page = () => {
       güvenli bir şekilde kapatıldı ve altyapı sistemleri devreye alınmaya hazır hale getirildi.`,
     },
     {
-      img: "/unluimages/altyapi1.jpg",
+      img: "/unluimages/altyapi1.webp",
       title: "Orman müdürlüğünün moloz kaldırma işi",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto

@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/telorgu1.jpg",
+      img: "/unluimages/telorgu1.webp",
       title: "Ahmediye Köyü Sulama Göleti Tel Örgü Çalışması",
       date: "03.12.2024",
       content: `Ahmediye Köyü'nde yer alan sulama göleti çevresinin güvenliğini 
@@ -23,7 +23,7 @@ const page = () => {
       güvenlik ve altyapı bütünlüğüne katkı sağladı.`,
     },
     {
-      img: "/unluimages/doga1.jpeg",
+      img: "/unluimages/doga1.webp",
       title: "Yabani Hayvanlara Bakım Tesisi Çalışmaları",
       date: "03.12.2024",
       content: `Yabani hayvanlara yönelik bakım tesisi projesi kapsamında, 
@@ -32,7 +32,7 @@ const page = () => {
       sürecine uygun zemin oluşturduk.`,
     },
     {
-      img: "/unluimages/tasduvar1.jpeg",
+      img: "/unluimages/tasduvar1.webp",
       title: "Orman müdürlüğünün moloz kaldırma işi",
       date: "03.12.2024",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto

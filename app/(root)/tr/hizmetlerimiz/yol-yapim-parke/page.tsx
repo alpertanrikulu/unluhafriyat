@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/izmiryol2.jpeg",
+      img: "/unluimages/izmiryol2.webp",
       title: "İzmir Rüzgar Türbini Yol Yapım Projesi",
       date: "03.12.2024",
       content: `EnerjiSA tarafından İzmir'de gerçekleştirilen rüzgar türbini projesi 
@@ -26,7 +26,7 @@ const page = () => {
       sahasına güvenli ve dayanıklı ulaşım sağlayan yollar başarıyla teslim edildi.`,
     },
     {
-      img: "/unluimages/yolparke1.jpg",
+      img: "/unluimages/yolparke1.webp",
       title: "Yalova İl Özel İdaresi Parke Yol Yapım Çalışmaları",
       date: "03.12.2024",
       content: `Yalova İl Özel İdaresi tarafından yürütülen kırsal altyapı iyileştirme projesi 

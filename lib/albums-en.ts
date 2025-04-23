@@ -3,27 +3,27 @@ export const albums = [
   {
     album: "our-excavation-works",
     title: "Our Construction Site",
-    images: ["/unluimages/bahcesehir.jpeg", "/unluimages/koyevleri1.jpeg", "/unluimages/koyevleri2.jpeg", "/unluimages/sefa.jpg", "/unluimages/komatsu.jpg", "/unluimages/derekoy.jpg", "/unluimages/golet2.jpg"],
+    images: ["/unluimages/bahcesehir.webp", "/unluimages/koyevleri1.webp", "/unluimages/koyevleri2.webp", "/unluimages/sefa.webp", "/unluimages/komatsu.webp", "/unluimages/derekoy.webp", "/unluimages/golet2.webp"],
   },
   {
     album: "our-Infrastructure-projects",
     title: "Our Infrastructure Projects",
-    images: ["/unluimages/altyapi1.jpg", "/unluimages/izmiraltyapi1.jpeg", "/unluimages/izmiraltyapi2.jpeg"],
+    images: ["/unluimages/altyapi1.webp", "/unluimages/izmiraltyapi1.webp", "/unluimages/izmiraltyapi2.webp"],
   },
   {
     album: "land-grading-and-site-preparation",
     title: "Land Grading & Site Preparation",
-    images: ["/unluimages/doga1.jpeg", "/unluimages/telorgu1.jpg", "/unluimages/telorgu2.jpeg", "/unluimages/tasduvar1.jpeg", "/unluimages/tasduvar2.jpeg"],
+    images: ["/unluimages/doga1.webp", "/unluimages/telorgu1.webp", "/unluimages/telorgu2.webp", "/unluimages/tasduvar1.webp", "/unluimages/tasduvar2.webp"],
   },
   {
     album: "building-demolition-gallery",
     title: "Building Demolition Gallery",
-    images: ["/unluimages/yikimyardimlasma.jpeg", "/unluimages/yikim.jpg"],
+    images: ["/unluimages/yikimyardimlasma.webp", "/unluimages/yikim.webp"],
   },
   {
     album: "road-construction-gallery",
     title: "Road Construction Gallery",
-    images: ["/unluimages/izmiryol2.jpeg", "/unluimages/izmiryol1.jpeg", "/unluimages/yolparke1.jpg", "/unluimages/yolparke2.jpeg", "/unluimages/yolparke3.jpeg"],
+    images: ["/unluimages/izmiryol2.webp", "/unluimages/izmiryol1.webp", "/unluimages/yolparke1.webp", "/unluimages/yolparke2.webp", "/unluimages/yolparke3.webp"],
   },
 ];
 
@@ -34,7 +34,7 @@ export const serviceAlbums = [
   {
     id: "hafriyat-moloz-tasima",
     title: "Excavation - Debris Removal",
-    img: "/images/moloz.jpg",
+    img: "/images/moloz.webp",
     alt: "unlu excavation yalova debris removal",
     href: "/en/services/excavation-debris-removal",
     description:
@@ -43,7 +43,7 @@ export const serviceAlbums = [
   {
     id: "alt-yapi",
     title: "Infrastructure Works",
-    img: "/images/altyapi.jpg",
+    img: "/images/altyapi.webp",
     alt: "unlu excavation yalova infrastructure",
     href: "/en/services/infrastructure",
     description:
@@ -52,7 +52,7 @@ export const serviceAlbums = [
   {
     id: "tesviye",
     title: "Land Grading",
-    img: "/images/tesviye.jpg",
+    img: "/images/tesviye.webp",
     alt: "unlu excavation yalova grading and substructure",
     href: "/en/services/grading",
     description:
@@ -61,7 +61,7 @@ export const serviceAlbums = [
   {
     id: "bina-yikim",
     title: "Building Demolition",
-    img: "/images/yikim.jpg",
+    img: "/images/yikim.webp",
     alt: "unlu excavation yalova building demolition",
     href: "/en/services/building-demolition",
     description:
@@ -70,7 +70,7 @@ export const serviceAlbums = [
   {
     id: "yol-yapim-parke",
     title: "Road Construction - Paving",
-    img: "/images/yol.jpg",
+    img: "/images/yol.webp",
     alt: "unlu excavation yalova road construction paving",
     href: "/en/services/road-paving",
     description:

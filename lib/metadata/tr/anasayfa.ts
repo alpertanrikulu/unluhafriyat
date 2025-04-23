@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: "https://www.orneksite.com",
     images: [
       {
-        url: "/kepce-bg.jpg",
+        url: "/kepce-bg.webp",
         width: 1200,
         height: 630,
         alt: "Ünlü Hafriyat Yalova",

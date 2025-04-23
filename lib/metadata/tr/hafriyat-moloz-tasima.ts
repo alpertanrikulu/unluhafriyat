@@ -25,7 +25,7 @@ const hafriyatMolozMetadata: Metadata = {
     url: "https://seninsiteadresin.com/tr/hizmetlerimiz/hafriyat-moloz-tasima",
     images: [
       {
-        url: "https://seninsiteadresin.com/images/moloz1.jpg",
+        url: "https://seninsiteadresin.com/images/moloz1.webp",
         width: 1200,
         height: 630,
         alt: "Hafriyat ve Moloz Taşıma",

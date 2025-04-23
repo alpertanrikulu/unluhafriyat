@@ -23,7 +23,7 @@ const metadata: Metadata = {
     locale: "tr_TR",
     images: [
       {
-        url: "/images/moloz.jpg",
+        url: "/images/moloz.webp",
         width: 800,
         height: 600,
         alt: "Alt yapı çalışmaları örneği",

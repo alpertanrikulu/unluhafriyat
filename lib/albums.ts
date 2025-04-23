@@ -3,27 +3,27 @@ export const albums = [
   {
     album: "hafriyat",
     title: "Hafriyat İşlerimiz",
-    images: ["/unluimages/bahcesehir.jpeg", "/unluimages/koyevleri1.jpeg", "/unluimages/koyevleri2.jpeg", "/unluimages/sefa.jpg", "/unluimages/komatsu.jpg", "/unluimages/derekoy.jpg", "/unluimages/golet2.jpg"],
+    images: ["/unluimages/bahcesehir.webp", "/unluimages/koyevleri1.webp", "/unluimages/koyevleri2.webp", "/unluimages/sefa.webp", "/unluimages/komatsu.webp", "/unluimages/derekoy.webp", "/unluimages/golet2.webp"],
   },
   {
     album: "altyapi",
     title: "Altyapı Çalışmalarımız",
-    images: ["/unluimages/altyapi1.jpg", "/unluimages/izmiraltyapi1.jpeg", "/unluimages/izmiraltyapi2.jpeg"],
+    images: ["/unluimages/altyapi1.webp", "/unluimages/izmiraltyapi1.webp", "/unluimages/izmiraltyapi2.webp"],
   },
   {
     album: "arazi-duzenleme",
     title: "Arazi Düzenleme Hizmetleri",
-    images: ["/unluimages/doga1.jpeg", "/unluimages/telorgu1.jpg", "/unluimages/telorgu2.jpeg", "/unluimages/tasduvar1.jpeg", "/unluimages/tasduvar2.jpeg"],
+    images: ["/unluimages/doga1.webp", "/unluimages/telorgu1.webp", "/unluimages/telorgu2.webp", "/unluimages/tasduvar1.webp", "/unluimages/tasduvar2.webp"],
   },
   {
     album: "bina-yikim-albumu",
     title: "Bina Yıkım Albümü",
-    images: ["/unluimages/yikimyardimlasma.jpeg", "/unluimages/yikim.jpg"],
+    images: ["/unluimages/yikimyardimlasma.webp", "/unluimages/yikim.webp"],
   },
   {
     album: "yol-yapim-albumu",
     title: "Yol Yapım Albümü",
-    images: ["/unluimages/izmiryol2.jpeg", "/unluimages/izmiryol1.jpeg", "/unluimages/yolparke1.jpg", "/unluimages/yolparke2.jpeg", "/unluimages/yolparke3.jpeg"],
+    images: ["/unluimages/izmiryol2.webp", "/unluimages/izmiryol1.webp", "/unluimages/yolparke1.webp", "/unluimages/yolparke2.webp", "/unluimages/yolparke3.webp"],
   },
 ];
 
@@ -33,7 +33,7 @@ export const serviceAlbums = [
   {
     id: "hafriyat-moloz-tasima",
     title: "Hafriyat - Moloz Taşıma",
-    img: "/images/moloz.jpg",
+    img: "/images/moloz.webp",
     alt: "ünlü hafriyat yalova moloz kaldırma",
     href: "/tr/hizmetlerimiz/hafriyat-moloz-tasima",
     description:
@@ -42,7 +42,7 @@ export const serviceAlbums = [
   {
     id: "alt-yapi",
     title: "Alt Yapı Çalışmaları",
-    img: "/images/altyapi.jpg",
+    img: "/images/altyapi.webp",
     alt: "ünlü hafriyat yalova alt yapı",
     href: "/tr/hizmetlerimiz/alt-yapi",
     description:
@@ -51,7 +51,7 @@ export const serviceAlbums = [
   {
     id: "cevreduzenleme",
     title: "Arazi Düzenleme Hizmetleri",
-    img: "/images/tesviye.jpg",
+    img: "/images/tesviye.webp",
     alt: "ünlü hafriyat yalova tesviye üst yapı",
     href: "/tr/hizmetlerimiz/cevreduzenleme",
     description:
@@ -60,7 +60,7 @@ export const serviceAlbums = [
   {
     id: "bina-yikim",
     title: "Bina Yıkım",
-    img: "/images/yikim.jpg",
+    img: "/images/yikim.webp",
     alt: "ünlü hafriyat yalova bina yıkım",
     href: "/tr/hizmetlerimiz/bina-yikim",
     description:
@@ -69,7 +69,7 @@ export const serviceAlbums = [
   {
     id: "yol-yapim-parke",
     title: "Yol Yapım - Parke Döşeme",
-    img: "/images/yol.jpg",
+    img: "/images/yol.webp",
     alt: "ünlü hafriyat yalova yol yapım parke döşeme",
     href: "/tr/hizmetlerimiz/yol-yapim-parke",
     description:

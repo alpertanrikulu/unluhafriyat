@@ -20,7 +20,7 @@ const metadata: Metadata = {
     url: "https://seninsiteadresin.com/tr/iletisim",
     images: [
       {
-        url: "https://seninsiteadresin.com/images/iletisim.jpg",
+        url: "https://seninsiteadresin.com/images/iletisim.webp",
         width: 1200,
         height: 630,
         alt: "Ünlü Hafriyat İletişim",

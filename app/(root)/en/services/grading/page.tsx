@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/telorgu1.jpg",
+      img: "/unluimages/telorgu1.webp",
       title: "Fencing Work Around Ahmediye Village Irrigation Pond",
       date: "12/03/2024",
       content: `We successfully completed the installation of a security fence 
@@ -23,7 +23,7 @@ const page = () => {
       and protecting the perimeter.`,
     },
     {
-      img: "/unluimages/doga1.jpeg",
+      img: "/unluimages/doga1.webp",
       title: "Wildlife Care Facility Site Preparation",
       date: "12/03/2024",
       content: `As part of the wildlife care facility project, we carried out both 
@@ -31,7 +31,7 @@ const page = () => {
       properly prepared to ensure a stable and secure base for the upcoming construction phase.`,
     },
     {
-      img: "/unluimages/tasduvar1.jpeg",
+      img: "/unluimages/tasduvar1.webp",
       title: "Debris Removal for the Forestry Directorate",
       date: "12/03/2024",
       content: `We successfully executed debris removal works for the Forestry Directorate, 

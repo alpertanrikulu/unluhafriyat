@@ -36,7 +36,7 @@ const servicesMetadata: Metadata = {
     siteName: "Yalova Ünlü Hafriyat",
     images: [
       {
-        url: "https://www.examplesite.com/images/debris.jpg", // Social media image
+        url: "https://www.examplesite.com/images/debris.webp", // Social media image
         width: 1200,
         height: 630,
         alt: "Ünlü Hafriyat Yalova Services",
@@ -50,7 +50,7 @@ const servicesMetadata: Metadata = {
     title: "Our Services | Ünlü Hafriyat Yalova",
     description:
       "Professional solutions for infrastructure, demolition, excavation, grading, and more.",
-    images: ["https://www.examplesite.com/images/debris.jpg"],
+    images: ["https://www.examplesite.com/images/debris.webp"],
   },
 };
 

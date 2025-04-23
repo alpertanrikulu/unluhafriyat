@@ -26,7 +26,7 @@ const excavationDebrisMetadata: Metadata = {
     url: "https://yoursiteaddress.com/en/services/excavation-debris-removal",
     images: [
       {
-        url: "https://yoursiteaddress.com/images/debris1.jpg",
+        url: "https://yoursiteaddress.com/images/debris1.webp",
         width: 1200,
         height: 630,
         alt: "Excavation and Debris Removal",

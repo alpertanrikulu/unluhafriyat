@@ -14,7 +14,7 @@ const Page = () => {
       {/* Hero Alanı */}
       <section
         aria-labelledby="hero-heading"
-        className="relative bg-[url('/unluimages/yan-santiye.jpeg')] bg-cover bg-left md:bg-center"
+        className="relative bg-[url('/unluimages/yan-santiye.webp')] bg-cover bg-left md:bg-center"
         style={{ height: "calc(100vh - 112px)" }}
       >
         <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/10 to-black/0">
@@ -54,7 +54,7 @@ const Page = () => {
           <div className="flex flex-wrap justify-center bg-white">
             <figure className="w-full lg:w-2/5 flex items-center">
               <Image
-                src="/images/jcb.jpg"
+                src="/images/jcb.webp"
                 alt="Yalova kepçe"
                 className="object-cover rounded-l-3xl"
                 width={4032}

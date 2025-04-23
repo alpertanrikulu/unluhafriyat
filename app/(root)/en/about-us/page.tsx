@@ -17,14 +17,14 @@ const page = () => {
           <div className="w-full md:w-auto float-none md:float-left md:mr-6 md:mb-4 mb-6">
             {/* <Image
               className="w-[300px] h-auto object-cover mx-auto md:mx-0"
-              src="/unluimages/hakkimizda.jpeg"
+              src="/unluimages/hakkimizda.webp"
               alt="Yalova hafriyat firması iş makinesi"
               width={500}
               height={500}
             /> */}
             <Image
               className="w-[300px] h-auto object-cover mx-auto md:mx-0"
-              src="/unluimages/sefa.jpg"
+              src="/unluimages/sefa.webp"
               alt="Excavation machinery of Yalova construction company"
               width={500}
               height={500}

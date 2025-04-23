@@ -25,7 +25,7 @@ const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.examplesite.com/images/jcb.jpg",
+        url: "https://www.examplesite.com/images/jcb.webp",
         width: 800,
         height: 600,
         alt: "Yalova excavation company machinery",

@@ -24,7 +24,7 @@ const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.orneksite.com/images/galeri-kapak.jpg",
+        url: "https://www.orneksite.com/images/galeri-kapak.webp",
         width: 800,
         height: 600,
         alt: "Ünlü Hafriyat iş makineleri ve saha çalışmaları",

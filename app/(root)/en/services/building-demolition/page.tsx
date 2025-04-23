@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/yikim.jpg",
+      img: "/unluimages/yikim.webp",
       title:
         "Demolition and Debris Removal for Yalova Provincial Special Administration",
       date: "12/03/2024",
@@ -26,7 +26,7 @@ const page = () => {
       delivered clean and ready for further use.`,
     },
     {
-      img: "/unluimages/yikimyardimlasma.jpeg",
+      img: "/unluimages/yikimyardimlasma.webp",
       title: "Demolition Work for Yeni Mahalle Social Solidarity Association",
       date: "12/03/2024",
       content: `Prior to the construction of a new building for the Yeni Mahalle Social 

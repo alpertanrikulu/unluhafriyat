@@ -9,14 +9,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/derekoy.jpg",
+      img: "/unluimages/derekoy.webp",
       title: "Dereköy Sulama Göleti Projesi",
       date: "03.12.2024",
       content: `Yalova Dereköy mevkiinde yer alan sulama göleti projesi kapsamında, 
@@ -27,7 +27,7 @@ const page = () => {
       tesviye işlemlerini tamamlayarak projeyi başarıyla sonuçlandırdık.`,
     },
     {
-      img: "/unluimages/golet2.jpg",
+      img: "/unluimages/golet2.webp",
       title: "İznik/Kırıntı köyü Sulama Göleti",
       date: "03.12.2024",
       content: `Bursa Büyükşehir Belediyesi tarafından, orman yangınlarını önlemek, 
@@ -38,7 +38,7 @@ const page = () => {
       zemin hazırlığı yapıldı ve alan, kullanıma hazır şekilde teslim edildi.`,
     },
     {
-      img: "/unluimages/bahcesehir.jpeg",
+      img: "/unluimages/bahcesehir.webp",
       title: "İstanbul Bahçeşehir Kentsel Dönüşüm Hafriyat Çalışmaları",
       date: "03.12.2024",
       content: `İstanbul Bahçeşehir bölgesinde yürütülen kentsel dönüşüm projesi kapsamında, 
@@ -49,7 +49,7 @@ const page = () => {
       inşaat ekiplerine eksiksiz teslim edildi.`,
     },
     {
-      img: "/unluimages/koyevleri1.jpeg",
+      img: "/unluimages/koyevleri1.webp",
       title: "Yalova Köy Evleri Temel Kazı Çalışmaları",
       date: "03.12.2024",
       content: `Yalova genelinde yapımı planlanan köy evleri projesi kapsamında, birden 

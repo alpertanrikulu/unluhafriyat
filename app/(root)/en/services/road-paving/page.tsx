@@ -7,14 +7,14 @@ export { metadata };
 
 const page = () => {
   const images: string[] = [
-    "/images/moloz1.jpg",
-    "/images/moloz2.jpg",
-    "/images/moloz3.jpg",
+    "/images/moloz1.webp",
+    "/images/moloz2.webp",
+    "/images/moloz3.webp",
   ];
 
   const works: Works[] = [
     {
-      img: "/unluimages/izmiryol2.jpeg",
+      img: "/unluimages/izmiryol2.webp",
       title: "İzmir Wind Turbine Road Construction Project",
       date: "12/03/2024",
       content: `As part of the wind turbine project carried out by EnerjiSA in İzmir, 
@@ -25,7 +25,7 @@ const page = () => {
       access to the wind turbine sites were successfully delivered.`,
     },
     {
-      img: "/unluimages/yolparke1.jpg",
+      img: "/unluimages/yolparke1.webp",
       title:
         "Paving Road Construction for Yalova Provincial Special Administration",
       date: "12/03/2024",
