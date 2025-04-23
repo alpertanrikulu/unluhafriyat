@@ -14,10 +14,19 @@ const Page = () => {
       {/* Hero Alanı */}
       <section
         aria-labelledby="hero-heading"
-        className="relative bg-[url('/unluimages/yan-santiye.webp')] bg-cover bg-left md:bg-center"
+        className="relative"
         style={{ height: "calc(100vh - 112px)" }}
       >
-        <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0">
+        {/* Görsel arka plan yerine konumlandırıldı */}
+        <Image
+          src="/unluimages/yan-santiye.webp"
+          alt="Şantiye arka plan görseli"
+          fill
+          priority // eager loading etkisi
+          className="object-cover object-left md:object-center -z-10"
+        />
+
+        <div className="absolute w-full h-full bg-gradient-to-tr from-black/90 via-black/20 to-black/0 z-0">
           <div className="flex justify-end">
             <div className="space-y-3 mt-5 mr-7">
               <Link
